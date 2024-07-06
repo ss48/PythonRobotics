@@ -31,40 +31,6 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_071CBFDE2F31BF14491D">
-		<Style>
-			<IconStyle>
-				<scale>2.4</scale>
-				<Icon>
-					<href>https://earth.google.com/earth/rpc/cc/icon?color=d32f2f&amp;id=2000&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LabelStyle>
-				<scale>2</scale>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>6</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>40ffffff</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<displayMode>hide</displayMode>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_09B76AF35231BF14491C">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_14A059B9A031BF14491C</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_071CBFDE2F31BF14491D</styleUrl>
-		</Pair>
-	</StyleMap>
 	<gx:CascadingStyle kml:id="__managed_style_2EFD52E0E431BF144915">
 		<Style>
 			<IconStyle>
@@ -121,26 +87,98 @@
 			<styleUrl>#__managed_style_2EFD52E0E431BF144915</styleUrl>
 		</Pair>
 	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_257EED039631BF9E7CDA">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=d32f2f&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_071CBFDE2F31BF14491D">
+		<Style>
+			<IconStyle>
+				<scale>2.4</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=d32f2f&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>2</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_09B76AF35231BF14491C">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_14A059B9A031BF14491C</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_071CBFDE2F31BF14491D</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_154DBAE30C31BF9E7CDA">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=d32f2f&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0E0C41AA9431BF9E7CDA">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_154DBAE30C31BF9E7CDA</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_257EED039631BF9E7CDA</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder id="0C84AAA53631BD162F5D">
 		<name>Destinations</name>
 		<open>1</open>
-		<Placemark id="0B075CB76C31BD6EAAE5">
-			<name>Vale Drive Primary Care Centre</name>
-			<LookAt>
-				<longitude>-0.1968710123449446</longitude>
-				<latitude>51.65064622007617</latitude>
-				<altitude>119.0496245502007</altitude>
-				<heading>33.95610494125125</heading>
-				<tilt>51.61511454086038</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>783.3107969355478</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
-			<Point>
-				<coordinates>-0.1951169862852115,51.6497469421364,106.8249971668427</coordinates>
-			</Point>
-		</Placemark>
 		<Placemark id="020FB0256031BD200D5B">
 			<name>Broomfield Hospital</name>
 			<LookAt>
@@ -153,7 +191,7 @@
 				<range>962.681589408021</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
 				<coordinates>0.4661826118043533,51.77432116677244,62.15314977461038</coordinates>
 			</Point>
@@ -170,7 +208,7 @@
 				<range>7908.249561059058</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
 				<coordinates>0.8989016354739056,51.90985612864645,52.129981717103</coordinates>
 			</Point>
@@ -187,7 +225,7 @@
 				<range>4063.273102276144</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
 				<coordinates>0.8950007512019129,51.90631333268821,40.85532839312136</coordinates>
 			</Point>
@@ -204,7 +242,7 @@
 				<range>4063.273102276144</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
 				<coordinates>0.9020700978708827,51.90668078352024,41.05316266193498</coordinates>
 			</Point>
@@ -221,7 +259,7 @@
 				<range>3513.147033427376</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
 				<coordinates>0.4847439958367916,51.75341033368938,37.20936407432514</coordinates>
 			</Point>
@@ -238,7 +276,7 @@
 				<range>3513.147033427376</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
 				<coordinates>0.4860906915350229,51.75595480607432,30.37470452823173</coordinates>
 			</Point>
@@ -255,7 +293,7 @@
 				<range>1906.346236672543</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
 				<coordinates>0.4851154704670301,51.74716663521045,42.72730373314561</coordinates>
 			</Point>
@@ -272,9 +310,9 @@
 				<range>8924.934771554545</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
-				<coordinates>0.1237980769230785,51.70491929118251,115.6421697734014</coordinates>
+				<coordinates>0.1255747078023273,51.70288283015128,115.6421697734014</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="06AF54F9C031BD3197AF">
@@ -289,9 +327,9 @@
 				<range>2867.143209121423</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
-				<coordinates>0.08539556146978197,51.76952006829818,64.14747173662603</coordinates>
+				<coordinates>0.08565868894554463,51.76912716012718,64.14747173662603</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="09CD915CD531BD3217CF">
@@ -306,9 +344,9 @@
 				<range>2867.143209121423</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
-				<coordinates>0.0868200246143358,51.77176739550571,69.79413382101708</coordinates>
+				<coordinates>0.08681342944926174,51.77177470864583,69.79413382101708</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="08980C01F631BD32D1C0">
@@ -323,7 +361,7 @@
 				<range>3163.337353592506</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
 				<coordinates>0.1129865782056449,51.75607366423915,73.36016156645285</coordinates>
 			</Point>
@@ -340,9 +378,9 @@
 				<range>5790.285723345587</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
-				<coordinates>0.1356597399818305,51.80818175439255,68.28605103152285</coordinates>
+				<coordinates>0.1357804869768531,51.80828291123409,68.28605103152285</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="04BC8CB45431BD35B9E8">
@@ -362,91 +400,6 @@
 				<coordinates>0.6877328222924616,51.55385927682786,40.11469741632487</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="0B5AAE63B731BD46D623">
-			<name>St Albans City Hospital</name>
-			<LookAt>
-				<longitude>-0.3457139310618307</longitude>
-				<latitude>51.74319846245394</latitude>
-				<altitude>91.24766614316273</altitude>
-				<heading>53.11981616282007</heading>
-				<tilt>60.0613137551813</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>15419.13049176335</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
-			<Point>
-				<coordinates>-0.3435461023351755,51.76043771309943,110.8324392548333</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="09E851A23231BD476E8D">
-			<name>Hemel Hempsteam Hospital</name>
-			<LookAt>
-				<longitude>-0.4695075770543722</longitude>
-				<latitude>51.75069927539609</latitude>
-				<altitude>108.933477195889</altitude>
-				<heading>52.91641952113871</heading>
-				<tilt>59.94724979383651</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>764.7829484937392</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
-			<Point>
-				<coordinates>-0.4691092344696746,51.7516592203038,124.3043795309861</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="0E9B67C06C31BD499D97">
-			<name>Stoke Mandeville Hospital</name>
-			<LookAt>
-				<longitude>-0.7978240106556145</longitude>
-				<latitude>51.79912316487393</latitude>
-				<altitude>86.01612159447117</altitude>
-				<heading>52.82577528013368</heading>
-				<tilt>51.35198755734502</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>1424.284711338842</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
-			<Point>
-				<coordinates>-0.8061987654715064,51.81044035125617,88.5627270743543</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="0E5E5D703831BD4A31A8">
-			<name>Stoke Mandeville Hospital Emergency</name>
-			<LookAt>
-				<longitude>-0.7978240106556145</longitude>
-				<latitude>51.79912316487393</latitude>
-				<altitude>86.01612159447117</altitude>
-				<heading>52.82577528013368</heading>
-				<tilt>51.35198755734502</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>1424.284711338842</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
-			<Point>
-				<coordinates>-0.8014090401785613,51.79736510287374,90.28124226004431</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="09397C982C31BD4AD728">
-			<name>Waddesdon Wing Maternity Outpatients Antenatal</name>
-			<LookAt>
-				<longitude>-0.8021384379958951</longitude>
-				<latitude>51.79719545416784</latitude>
-				<altitude>90.92761652804441</altitude>
-				<heading>52.81887036614162</heading>
-				<tilt>51.34717542765949</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>739.049740673363</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
-			<Point>
-				<coordinates>-0.8000927812905456,51.79724865426316,92.9616022829897</coordinates>
-			</Point>
-		</Placemark>
 		<Placemark id="06F884748E31BD68CDC3">
 			<name>Phoenix Hospital Chelmsford</name>
 			<LookAt>
@@ -459,7 +412,7 @@
 				<range>7175.670542574953</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
 				<coordinates>0.5035843063186717,51.70695925794588,36.53239001018486</coordinates>
 			</Point>
@@ -476,7 +429,7 @@
 				<range>1195.337775519001</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
 				<coordinates>0.4710096422132502,51.73092405457083,35.83657572852461</coordinates>
 			</Point>
@@ -493,7 +446,7 @@
 				<range>1147.535923757823</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
 				<coordinates>0.4663354223901122,51.72999144599143,31.24564959711314</coordinates>
 			</Point>
@@ -510,7 +463,7 @@
 				<range>1537.691036219039</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
 				<coordinates>0.456043285327947,51.72642076891589,48.45157475308184</coordinates>
 			</Point>
@@ -527,94 +480,9 @@
 				<range>2694.211246461491</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
 			<Point>
 				<coordinates>0.42651098901098,51.73261225563316,35.54494197837538</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="0169FDD13731BD6D2F97">
-			<name>Barnet Hospital</name>
-			<LookAt>
-				<longitude>-0.2142299080354926</longitude>
-				<latitude>51.65015280865894</latitude>
-				<altitude>116.3103679142327</altitude>
-				<heading>33.94792626631624</heading>
-				<tilt>51.61979249013329</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>1446.969833067415</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
-			<Point>
-				<coordinates>-0.213735727163469,51.6508233199992,115.5282869113015</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="07C47ECD7D31BD6DB882">
-			<name>Barnet Hospital Emergency Department</name>
-			<LookAt>
-				<longitude>-0.2142299080354926</longitude>
-				<latitude>51.65015280865894</latitude>
-				<altitude>116.3103679142327</altitude>
-				<heading>33.94792626631624</heading>
-				<tilt>51.61979249013329</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>1446.969833067415</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
-			<Point>
-				<coordinates>-0.2161576826493854,51.65055615262246,125.5996772205984</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="0A22BBD00B31BD6E319A">
-			<name>Hadley Wood Hospital</name>
-			<LookAt>
-				<longitude>-0.1981320364942063</longitude>
-				<latitude>51.65279534597052</latitude>
-				<altitude>125.0634923173999</altitude>
-				<heading>33.95924878558147</heading>
-				<tilt>51.61956884043195</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>1415.242666276609</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
-			<Point>
-				<coordinates>-0.1969832535628527,51.65449483924015,112.7852073322038</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="07132EB24F31BD6FE676">
-			<name>Medstar Clinic</name>
-			<LookAt>
-				<longitude>-0.1504930494292478</longitude>
-				<latitude>51.61739661253369</latitude>
-				<altitude>52.08032173071229</altitude>
-				<heading>33.97802065777326</heading>
-				<tilt>51.61813033259048</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>1211.147772304685</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
-			<Point>
-				<coordinates>-0.1514262105082491,51.61601546985334,60.94665359539616</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="05431DA05031BD710D10">
-			<name>Lordship Lane Primary Care Centre</name>
-			<LookAt>
-				<longitude>-0.08535541171442618</longitude>
-				<latitude>51.59570416495118</latitude>
-				<altitude>14.86720000060767</altitude>
-				<heading>34.00430616452158</heading>
-				<tilt>51.62460473348132</tilt>
-				<gx:fovy>35</gx:fovy>
-				<range>2129.647572840331</range>
-				<altitudeMode>absolute</altitudeMode>
-			</LookAt>
-			<styleUrl>#__managed_style_06A96EF91C31BF144915</styleUrl>
-			<Point>
-				<coordinates>-0.0805596990899683,51.5972710103994,21.36209261262719</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="0650A26F9531BD71AD39">
@@ -632,6 +500,176 @@
 			<styleUrl>#__managed_style_09B76AF35231BF14491C</styleUrl>
 			<Point>
 				<coordinates>-0.03848996120356829,1,25.78451729971917</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0B2747176031BFAA7DF0">
+			<name>Fitzory Surgery Chelmsford</name>
+			<LookAt>
+				<longitude>0.474960331146792</longitude>
+				<latitude>51.73517761738581</latitude>
+				<altitude>40.78990233500093</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>829.7059538363828</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
+			<Point>
+				<coordinates>0.473230589786886,51.73593592005771,38.36438983225385</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0C2FD66D7831BFA3AC96">
+			<name>Brentwood Community Hospital</name>
+			<LookAt>
+				<longitude>0.3171528392735157</longitude>
+				<latitude>51.62609308593774</latitude>
+				<altitude>99.40971056935952</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>9806.023979805177</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
+			<Point>
+				<coordinates>0.3165310777240293,51.62350362985205,109.6301263398982</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0F6B4605A331BFA60ED8">
+			<name>Mayflower Community Hospital</name>
+			<LookAt>
+				<longitude>0.4023120334724561</longitude>
+				<latitude>51.62731403373353</latitude>
+				<altitude>60.22327431393138</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>5621.724128820934</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
+			<Point>
+				<coordinates>0.4050319797390082,51.62170280073786,74.70768879269713</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="079E440C7A31BFAFF38D">
+			<name>West Horndon Surgery</name>
+			<LookAt>
+				<longitude>0.3560545232035661</longitude>
+				<latitude>51.56780143023479</latitude>
+				<altitude>11.8024814363113</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>4198.395910652471</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
+			<Point>
+				<coordinates>0.3478919772586697,51.56991740445563,11.81273275657717</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0CB070B2E831BFA6F2F4">
+			<name>Orsett Hospital</name>
+			<LookAt>
+				<longitude>0.3246751037585205</longitude>
+				<latitude>51.55178329697734</latitude>
+				<altitude>4.008712259332912</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>23217.31797739863</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
+			<Point>
+				<coordinates>0.3662846514279683,51.50992194663591,28.58734636932077</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="03B3264CE331BF9E24F2">
+			<name>Basildon University Hospital</name>
+			<LookAt>
+				<longitude>0.4683344842514447</longitude>
+				<latitude>51.55814670533533</latitude>
+				<altitude>62.20367310984593</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>5148.914823020459</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
+			<Point>
+				<coordinates>0.4518533224587951,51.55800000431004,57.89818970777221</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0DC724966431BFAB6562">
+			<name>Sutherland Lodge Surgery</name>
+			<LookAt>
+				<longitude>0.4790806956315974</longitude>
+				<latitude>51.73013599557864</latitude>
+				<altitude>22.04054520405848</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>2563.299715178437</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
+			<Point>
+				<coordinates>0.482412970012287,51.7257098800565,30.20589758874257</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="081BA4995431BFB2BE6A">
+			<name>Braintree Community Hospital</name>
+			<LookAt>
+				<longitude>0.5484712809762371</longitude>
+				<latitude>51.87140860174407</latitude>
+				<altitude>45.57400011538562</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>5378.982349414146</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
+			<Point>
+				<coordinates>0.5404728217711163,51.87983379657575,73.71777320795582</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0B2B78366B31BFB36EB8">
+			<name>Halstead Hospital</name>
+			<LookAt>
+				<longitude>0.6308253311851253</longitude>
+				<latitude>51.94110862866791</latitude>
+				<altitude>55.87094588961648</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>4196.559132258408</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
+			<Point>
+				<coordinates>0.6379421359890148,51.94822718909322,56.15721830449306</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0E32695B7931BFB70666">
+			<name>Colchester General Hospital</name>
+			<LookAt>
+				<longitude>0.8999150581272652</longitude>
+				<latitude>51.91029998454125</latitude>
+				<altitude>43.54285943894751</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>614.4730181369232</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0E0C41AA9431BF9E7CDA</styleUrl>
+			<Point>
+				<coordinates>0.8993085991404359,51.91038853812569,52.05996642334027</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
