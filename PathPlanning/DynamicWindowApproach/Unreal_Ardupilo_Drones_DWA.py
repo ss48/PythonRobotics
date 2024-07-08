@@ -100,14 +100,10 @@ def plot_destinations_and_fences(ax, start_position, destinations, fences, curre
         ax.text(dest[1] + 0.001, dest[0] + 0.001, f'{i}', fontsize=8, color='red' if dest in current_goals else 'green')
     
     # Group fence points into polygons
-    polygon_fences = []
+    num_points = 20  # Assuming the number of points used to generate each fence
     for center in fence_centers:
-        fence_points = []
-        for i in range(len(fences) // len(fence_centers)):
-            fence_points.append(fences.pop(0))
-        polygon_fences.append(fence_points)
-    
-    for polygon in polygon_fences:
+        polygon = fences[:num_points]
+        fences = fences[num_points:]
         fence_x, fence_y = zip(*polygon)
         ax.fill(fence_x, fence_y, 'r', alpha=0.5)  # Draw the fence area
 
@@ -227,4 +223,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
