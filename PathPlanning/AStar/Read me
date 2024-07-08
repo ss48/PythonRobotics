@@ -1,0 +1,2 @@
+python3 take0ff_arm.py --connect1 udpin:127.0.0.1:14552 --connect2 udpin:127.0.0.1:14553
+python3 a_star_varients_fence_hospital.py
