@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import threading
 import queue
-import random
 import argparse
 from dronekit import connect, VehicleMode, LocationGlobalRelative
 from pymavlink import mavutil  # Needed for command message definitions
@@ -34,7 +33,9 @@ def read_positions(file_path):
                 break
             elif reading_nodes:
                 _, x, y = line.split()
-                positions.append((float(x), float(y)))
+                lat, lon = float(x), float(y)
+                if 51.4 <= lat <= 52 and -5 <= lon <= 1.2:  # Ensure coordinates are within the specified range
+                    positions.append((lat, lon))
     return positions
 
 def read_fences(file_path, radius=0.003, num_points=20):
@@ -53,16 +54,18 @@ def read_fences(file_path, radius=0.003, num_points=20):
                 center_x, center_y = float(x), float(y)
                 centers.append((center_x, center_y))
                 # Generate points around the fence center to form a polygon
+                polygon = []
                 for i in range(num_points):
                     angle = 2 * math.pi * i / num_points
                     px = center_x + radius * math.cos(angle)
                     py = center_y + radius * math.sin(angle)
-                    fences.append([px, py])
+                    polygon.append([px, py])
+                fences.append(polygon)
     return fences, centers
 
 class Config:
     def __init__(self, fences_file):
-        self.max_speed = 1.0  # [m/s]
+        self.max_speed = 4.0  # [m/s]
         self.min_speed = -0.5  # [m/s]
         self.max_yaw_rate = 40.0 * math.pi / 180.0  # [rad/s]
         self.max_accel = 0.2  # [m/ss]
@@ -97,30 +100,25 @@ def plot_destinations_and_fences(ax, start_position, destinations, fences, curre
     for i, dest in enumerate(destinations):
         color = 'ro' if dest in current_goals else 'go'
         ax.plot(dest[1], dest[0], color)
-        ax.text(dest[1] + 0.001, dest[0] + 0.001, f'{i}', fontsize=8, color='red' if dest in current_goals else 'green')
+        ax.text(dest[1] + 0.001, dest[0] + 0.001, f'{i+1}', fontsize=8, color='red' if dest in current_goals else 'green')
     
-    # Group fence points into polygons
-    num_points = 20  # Assuming the number of points used to generate each fence
-    for center in fence_centers:
-        polygon = fences[:num_points]
-        fences = fences[num_points:]
-        fence_x, fence_y = zip(*polygon)
-        ax.fill(fence_x, fence_y, 'r', alpha=0.5)  # Draw the fence area
+    # Plot fence polygons
+    for polygon in fences:
+        if polygon:  # Ensure the polygon is not empty
+            fence_x, fence_y = zip(*polygon)
+            ax.fill(fence_x, fence_y, 'r', alpha=0.5)  # Draw the fence area
 
-def drone_movement(vehicle, config, vehicle_id, start_position, destinations, plot_queue, path, current_goal):
+def drone_movement(vehicle, config, vehicle_id, start_position, destinations, plot_queue, path, current_goal, start_index):
     x = np.array([start_position[0], start_position[1], 0.0, 0.0, 0.0])  # Initial state
 
-    remaining_destinations = destinations.copy()
+    destination_index = start_index
 
-    while True:
-        if not remaining_destinations:
-            remaining_destinations = destinations.copy()
-
-        destination = random.choice(remaining_destinations)
+    while destination_index < len(destinations):
+        destination = destinations[destination_index]
         current_goal[vehicle_id - 1] = destination
-        print(f"Drone {vehicle_id} planning to go to destination: {destinations.index(destination)} at {destination}")
+        print(f"Drone {vehicle_id} planning to go to destination: {destination_index + 1} at {destination}")
         goal = np.array([destination[0], destination[1]])
-        ob = config.ob
+        ob = np.concatenate(config.ob)  # Flatten the list of polygons into a 2D array
 
         while True:
             print(f"Drone {vehicle_id} current position: {x[0]:.6f}, {x[1]:.6f}, yaw: {x[2]:.6f}")
@@ -144,7 +142,9 @@ def drone_movement(vehicle, config, vehicle_id, start_position, destinations, pl
             dist_to_goal = math.hypot(x[0] - goal[0], x[1] - goal[1])
             if dist_to_goal <= config.robot_radius:
                 print(f"Drone {vehicle_id} reached destination at {destination}")
-                remaining_destinations.remove(destination)
+                if destination_index == 0:
+                    print("Hooray! We reached the first destination")
+                destination_index += 2
                 break
 
         print(f"Drone {vehicle_id} selecting new destination...")
@@ -166,8 +166,8 @@ def plot_update(frame, plot_queue, ax, start_position, destinations, fences, con
     ax.set_aspect('equal')
     ax.grid(True)
     ax.legend(loc='best')
-    ax.set_xlim(0, 1)  # Set larger axis limits
-    ax.set_ylim(51, 52)  # Set larger axis limits
+    ax.set_xlim(-0.2, 1.2)  # Set larger axis limits
+    ax.set_ylim(51.4, 52)  # Set larger axis limits
 
 def main():
     parser = argparse.ArgumentParser(description='Control Copter and send commands in GUIDED mode')
@@ -177,7 +177,6 @@ def main():
     connection_string1 = args.connect1 if args.connect1 else 'udpin:127.0.0.1:14552'
     connection_string2 = args.connect2 if args.connect2 else 'udpin:127.0.0.1:14553'
     
-   
     print('Connecting to vehicle on:', connection_string1)
     vehicle1 = connect(connection_string1, wait_ready=True, timeout=60)
     print('Connected to vehicle 1')
@@ -208,11 +207,11 @@ def main():
     paths = [[], []]  # Separate paths for each drone
     current_goals = [None, None]  # Current goal for each drone
 
-    vehicle1_thread = threading.Thread(target=lambda: drone_movement(vehicle1, config1, 1, start_position, destinations, plot_queue, paths[0], current_goals))
+    vehicle1_thread = threading.Thread(target=lambda: drone_movement(vehicle1, config1, 1, start_position, destinations, plot_queue, paths[0], current_goals, 0))
     vehicle1_thread.daemon = True
     vehicle1_thread.start()
 
-    vehicle2_thread = threading.Thread(target=lambda: drone_movement(vehicle2, config2, 2, start_position, destinations, plot_queue, paths[1], current_goals))
+    vehicle2_thread = threading.Thread(target=lambda: drone_movement(vehicle2, config2, 2, start_position, destinations, plot_queue, paths[1], current_goals, 1))
     vehicle2_thread.daemon = True
     vehicle2_thread.start()
 
