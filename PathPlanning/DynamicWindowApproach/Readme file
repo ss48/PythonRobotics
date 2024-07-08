@@ -1,6 +1,9 @@
-~/ardupilot$ ./libraries/SITL/examples/Airsim/follow-1-copter.sh
-mavproxy.py --master=udpin:127.0.0.1:14550 --console --out=udpout:127.0.0.1:14552 
-./mavproxy_kml.py
+1. Run the UNreal Engine by Blocks.uproject
 
-~/PythonRobotics/PathPlanning/DynamicWindowApproach$ python3 take0ff_arm.py --connect1 udpin:127.0.0.1:14552 --connect2 udpin:127.0.0.1:14553 
-~/PythonRobotics/PathPlanning/DynamicWindowApproach$ python3 Unreal_Ardupilo_Drones_DWA.py --connect1 udpin:127.0.0.1:14552 --connect2 udpin:127.0.0.1:14553 
+
+2. ~/ardupilot$ ./libraries/SITL/examples/Airsim/follow-1-copter.sh
+3. mavproxy.py --master=udpin:127.0.0.1:14550 --console --out=udpout:127.0.0.1:14552 
+4. ./mavproxy_kml.py
+
+5. ~/PythonRobotics/PathPlanning/DynamicWindowApproach$ python3 take0ff_arm.py --connect1 udpin:127.0.0.1:14552 --connect2 udpin:127.0.0.1:14553 
+6. ~/PythonRobotics/PathPlanning/DynamicWindowApproach$ python3 Unreal_Ardupilo_Drones_DWA.py --connect1 udpin:127.0.0.1:14552 --connect2 udpin:127.0.0.1:14553 
