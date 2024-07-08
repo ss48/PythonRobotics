@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<description><![CDATA[Created by <a href="mailto:aissupervisor@nats.co.uk"> NATS AIM </a> on 2024-04-16 11:38:58 using data effective 2024-06-13. Not for operational use.<br/>
+			The content of this file is <b> not</b> guaranteed as accurate, adequate, fit for any particular purpose, complete, reliable, current, or error-free.]]></description>
+	<TimeSpan>
+		<begin>2024-06-13</begin>
+		<end>2024-06-13</end>
+	</TimeSpan>
+	<Style id="highlightStyle">
+		<LineStyle>
+			<color>ff783cf0</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8f783cf0</color>
+		</PolyStyle>
+	</Style>
+	<Style id="rdpstyle">
+		<LineStyle>
+			<color>ff1400e6</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>8f1400ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="rdpStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#rdpstyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#highlightStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="0DD81DC7B131C3B4B10E">
+		<name>Airspaces</name>
+		<open>1</open>
+		<Folder id="064852445C31C3B4B650">
+			<name>Danger</name>
+			<open>1</open>
+			<Placemark id="032931F55931C3B4BE69">
+				<name>EGD136 SHOEBURYNESS</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="990" txt_name="SHOEBURYNESS"><tr><td>513217N 0004804E -<br/>513017N 0005104E -<br/>513030N 0004700E -<br/>513217N 0004804E <br/>Upper limit: 13000 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>AMC - Manageable.<br/><br/>Activity: Ordnance, Munitions and Explosives  / Unmanned Aircraft System (VLOS/BVLOS) / Electronic/Optical Hazards.<br/><br/>Service: SUAAIS: Southend APP on 130.780 MHz when open; at other times London Information on 124.600 MHz.<br/><br/>Contact: Pre-flight information: Range Control, Tel: 01702-383211 or 01702-383212.<br/><br/>Remarks: SI 1936/714.<br/><br/>Danger Area Authority: DE&S.</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.8011111111,51.5380555556,3962.4 0.7833333333,51.5083333333,3962.4 0.8511111111000002,51.50472222219999,3962.4 0.8011111111,51.5380555556,3962.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="16B4B5FE7031C3B4BE69">
+				<name>EGD138A SHOEBURYNESS</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="992" txt_name="SHOEBURYNESS"><tr><td>514000N 0010400E -<br/>514000N 0011613E -<br/>513714N 0011203E -<br/>513714N 0005536E -<br/>514000N 0010400E <br/>Upper limit: 60000 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>AMC - Manageable.<br/><br/>Vertical Limits: 6000 FT ALT.<br/><br/>Vertical Limits: OCNL notified to altitudes up to 60,000 FT ALT.<br/><br/>Activity: Ordnance, Munitions and Explosives / Unmanned Aircraft System (VLOS/BVLOS) / Electronic/Optical Hazards.<br/><br/>Service: SUAAIS: Southend APP on 130.780 MHz when open; at other times London Information on 124.600 MHz.<br/><br/>Contact: Pre-flight information: Range Control, Tel: 01702-383211 or 01702-383212.<br/><br/>Remarks: SI 1936/714.<br/><br/>Danger Area Authority: DE&S.</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								1.0666666667,51.6666666667,18288 0.9266666667,51.6205555556,18288 1.2008333333,51.6205555556,18288 1.2702777778,51.6666666667,18288 1.0666666667,51.6666666667,18288 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="208C2894FB31C3B4BE69">
+				<name>EGD138B SHOEBURYNESS</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="993" txt_name="SHOEBURYNESS"><tr><td>514200N 0011124E -<br/>514200N 0011912E -<br/>514000N 0011613E -<br/>514000N 0010400E -<br/>514200N 0011124E <br/>Upper limit: 5000 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>AMC - Manageable.<br/><br/>Activity: Ordnance, Munitions and Explosives / Unmanned Aircraft System (VLOS/BVLOS) / Electronic/Optical Hazards.<br/><br/>Service: SUAAIS: Southend APP on 130.780 MHz when open; at other times London Information on 124.600 MHz.<br/><br/>Contact: Pre-flight information: Range Control, Tel: 01702-383211 or 01702-383212.<br/><br/>Danger Area Authority: DE&S.</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								1.19,51.7,1524 1.0666666667,51.6666666667,1524 1.2702777778,51.6666666667,1524 1.32,51.7,1524 1.19,51.7,1524 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="303759F5BD31C3B4BE69">
+				<name>EGD138C SHOEBURYNESS</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="994" txt_name="SHOEBURYNESS"><tr><td>513700N 0005455E -<br/>513755N 0005740E -<br/>513638N 0005850E -<br/>513544N 0005620E -<br/>513700N 0005455E <br/>Upper limit: 6000 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>AMC - Manageable.<br/><br/>Activity: Ordnance, Munitions and Explosives / Unmanned Aircraft System (VLOS/BVLOS) / Electronic/Optical Hazards.<br/><br/>Service: SUAAIS: Southend APP on 130.780 MHz when open; at other times London Information on 124.600 MHz.<br/><br/>Contact: Pre-flight information: Range Control, Tel: 01702-383211 or 01702-383212.<br/><br/>Remarks: May be activated at the same time as EGD138A and/or EGD138D as a separate activity.<br/><br/>Remarks: SI 1936/714.<br/><br/>Danger Area Authority: DE&S.</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.9152777778000001,51.6166666667,1828.8 0.9388888889,51.5955555556,1828.8 0.9805555555999999,51.6105555556,1828.8 0.9611111111,51.63194444440001,1828.8 0.9152777778000001,51.6166666667,1828.8 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="41E46B07B131C3B4BE69">
+				<name>EGD138D SHOEBURYNESS</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="991" txt_name="SHOEBURYNESS"><tr><td>513714N 0005536E -<br/>513714N 0011203E -<br/>513000N 0005300E -<br/>513009N 0005115E -<br/>513217N 0004804E -<br/>513400N 0005000E -<br/>513500N 0005018E -<br/>513541N 0005016E - then along the north coast of Foulness Island to<br/>513700N 0005455E -<br/>513714N 0005536E <br/>Upper limit: 60000 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>AMC - Manageable.<br/><br/>Vertical Limits: 13,000 FT ALT.<br/><br/>Vertical Limits: OCNL notified to altitudes up to 60,000 FT ALT.<br/><br/>Activity: Ordnance, Munitions and Explosives / Unmanned Aircraft System (VLOS/BVLOS) / Electronic/Optical Hazards.<br/><br/>Service: SUAAIS: Southend APP on 130.780 MHz when open; at other times London Information on 124.600 MHz.<br/><br/>Contact: Pre-flight information: Range Control, Tel: 01702-383211 or 01702-383212.<br/><br/>Remarks: SI 1936/714.<br/><br/>Danger Area Authority: DE&S.</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.9266666667,51.6205555556,18288 0.9152777778000001,51.6166666667,18288 0.915875,51.61495,18288 0.913075,51.6141194444,18288 0.9085638888999999,51.61360000000001,18288 0.9064277777999999,51.61410277779999,18288 0.9046694444,51.6136972222,18288 0.9015722222,51.6126944444,18288 0.8996138888999999,51.61373333329999,18288 0.8951472221999999,51.6139333333,18288 0.8891527778,51.6150694444,18288 0.877525,51.6140055556,18288 0.8742555556,51.61255833330001,18288 0.87235,51.6098166667,18288 0.8720472222,51.6004694444,18288 0.87065,51.5966361111,18288 0.8677638889000001,51.5943666667,18288 0.8625527777999999,51.5918861111,18288 0.8590694444,51.5916111111,18288 0.8508555556,51.5919,18288 0.8451333333,51.5927583333,18288 0.8405138889,51.59278055560001,18288 0.8377777778000001,51.5947222222,18288 0.8383333333,51.58333333329999,18288 0.8333333333000001,51.5666666667,18288 0.8011111111,51.5380555556,18288 0.8541666667,51.50249999999999,18288 0.8833333333,51.5,18288 1.2008333333,51.6205555556,18288 0.9266666667,51.6205555556,18288 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5D3233CB4D31C3B4BE69">
+				<name>EGD139 FINGRINGHOE</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="995" txt_name="FINGRINGHOE"><tr><td>515000N 0005458E -<br/>514954N 0005852E -<br/>514833N 0005848E -<br/>514839N 0005452E -<br/>515000N 0005458E <br/>Upper limit: 2000 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>Vertical Limits: 1500 FT ALT.<br/><br/>Vertical Limits: OCNL notified to altitudes up to 2000 FT ALT by NOTAM.<br/><br/>Activity: Ordnance, Munitions and Explosives / Unmanned Aircraft System (VLOS).<br/><br/>Service: SUAAIS: London Information on 124.600 MHz.<br/><br/>Contact: Pre-flight information / Booking: Range TSO, Tel: 01206-736149.<br/><br/>Remarks: SI 1974/665.<br/><br/>Danger Area Authority: DIO.</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.9161111111,51.83333333329999,609.6 0.9144444443999998,51.8108333333,609.6 0.98,51.8091666667,609.6 0.9811111111000002,51.8316666667,609.6 0.9161111111,51.83333333329999,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder id="138E90013131C3B4B6F4">
+			<name>Restricted</name>
+			<open>1</open>
+			<Placemark id="ADDBEA378331C3B5399B">
+				<name>EGR157 HYDE PARK</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="1245" txt_name="HYDE PARK"><tr><td>513212N 0000911W -<br/>513020N 0000648W thence clockwise by the arc of a circle radius 0.55 NM centred on 513000N 0000730W to<br/>513001N 0000637W -<br/>512917N 0000634W thence clockwise by the arc of a circle radius 0.55 NM centred on 512915N 0000726W to<br/>512852N 0000649W -<br/>512834N 0000719W thence clockwise by the arc of a circle radius 0.55 NM centred on 512857N 0000756W to<br/>512858N 0000849W -<br/>512921N 0000847W -<br/>512939N 0001132W thence clockwise by the arc of a circle radius 0.55 NM centred on 513011N 0001123W to<br/>513028N 0001209W -<br/>513208N 0001038W thence clockwise by the arc of a circle radius 0.55 NM centred on 513151N 0000952W to -<br/>513212N 0000911W <br/>Upper limit: 1400 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>Flight permitted by:<br/>any aircraft in the service of the Chief Officer of Police for the Metropolitan Police District;<br/>any aircraft flying in accordance with a Special Flight Notification issued by the appropriate ATC unit;<br/>any helicopter flying on Helicopter Route H4;<br/>any aircraft flying in accordance with an Enhanced Non-Standard Flight clearance issued by the appropriate ATC unit.<br/><br/>See also ENR 1.1, paragraph 4.1.6.<br/><br/>SI 1300/2017<br/><br/>Contact: www.nats.co.uk/nsf</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.1529333333,51.53661111109999,426.7200000000001 -0.1549267573,51.53789408709999,426.7200000000001 -0.1572818369,51.5389111961,426.7200000000001 -0.1599088899,51.5396236997,426.7200000000001 -0.1627078613,51.5400044583,426.7200000000001 -0.1655721364,51.5400389683,426.7200000000001 -0.1683926087,51.5397259152,426.7200000000001 -0.1710618431,51.5390772237,426.7200000000001 -0.1734781752,51.53811760280001,426.7200000000001 -0.1755495885,51.5368836029,426.7200000000001 -0.1771972222,51.5354222222,426.7200000000001 -0.2023722222,51.5076638889,426.7200000000001 -0.2035115549,51.5060699613,426.7200000000001 -0.2041447262,51.5043699176,426.7200000000001 -0.2042494731,51.5026257804,426.7200000000001 -0.2038220493,51.5009009245,426.7200000000001 -0.2028780428,51.4992580171,426.7200000000001 -0.2014518003,51.4977567415,426.7200000000001 -0.1995951734,51.4964516304,426.7200000000001 -0.1973756297,51.4953900866,426.7200000000001 -0.1948738011,51.4946106635,426.7200000000001 -0.1921805556,51.4941416667,426.7200000000001 -0.1464694444,51.4890388889,426.7200000000001 -0.1468722222,51.48287500000001,426.7200000000001 -0.1467340709,51.4811955082,426.7200000000001 -0.1461068208,51.4795600798,426.7200000000001 -0.1450111174,51.4780238809,426.7200000000001 -0.1434839716,51.4766387391,426.7200000000001 -0.141576937,51.4754513811,426.7200000000001 -0.1393543671,51.47450185809999,426.7200000000001 -0.1368912443,51.47382219699999,426.7200000000001 -0.1342706517,51.4734353207,426.7200000000001 -0.1315809745,51.4733542773,426.7200000000001 -0.1289129236,51.4735818,426.7200000000001 -0.1263564821,51.4741102153,426.7200000000001 -0.1239978753,51.4749217016,426.7200000000001 -0.1219166667,51.4759888889,426.7200000000001 -0.1136111111,51.48111111110001,426.7200000000001 -0.1120090522,51.482252708,426.7200000000001 -0.1107683543,51.483560414,426.7200000000001 -0.109891236,51.4849782611,426.7200000000001 -0.1094019057,51.4864671731,426.7200000000001 -0.1093138889,51.4879861111,426.7200000000001 -0.1102416667,51.5003194444,426.7200000000001 -0.1105268172,51.5017362939,426.7200000000001 -0.1111609871,51.50310830229999,426.7200000000001 -0.1121293381,51.50440206899999,426.7200000000001 -0.1134083333,51.5055861111,426.7200000000001 -0.1529333333,51.53661111109999,426.7200000000001 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="B18E9312D231C3B5399B">
+				<name>EGR158 CITY OF LONDON</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="1657" txt_name="CITY OF LONDON"><tr><td>513125N 0000547W -<br/>513118N 0000439W -<br/>513043N 0000418W -<br/>513016N 0000433W -<br/>513037N 0000704W -<br/>513108N 0000653W -<br/>513125N 0000547W <br/>Upper limit: 1400 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>Flight permitted by:<br/>any aircraft in the service of the Chief Officer of Police for the Metropolitan Police District;<br/>any aircraft flying in accordance with a Special Flight Notification issued by the appropriate ATC unit;<br/>any helicopter flying on Helicopter Route H4;<br/>any aircraft flying in accordance with an Enhanced Non-Standard Flight clearance issued by the appropriate ATC unit.<br/><br/>See also ENR 1.1, paragraph 4.1.6.<br/><br/>SI 2092/2004.<br/><br/>Contact: www.nats.co.uk/nsf</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.09652500000000001,51.52371388890001,426.7200000000001 -0.1147444444,51.5188833333,426.7200000000001 -0.1176944444,51.5102972222,426.7200000000001 -0.0757138889,51.5044888889,426.7200000000001 -0.0716472222,51.51206666669999,426.7200000000001 -0.07758611109999999,51.5216055556,426.7200000000001 -0.09652500000000001,51.52371388890001,426.7200000000001 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="C9700C75AD31C3B5399B">
+				<name>EGR159 ISLE OF DOGS</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="1658" txt_name="ISLE OF DOGS"><tr><td>513035N 0000025W -<br/>512954N 0000033W -<br/>512938N 0000022W thence clockwise by the arc of a circle radius 0.3 NM centred on 512931N 0000049W to<br/>512921N 0000113W -<br/>513000N 0000154W thence clockwise by the arc of a circle radius 0.55 NM centred on 513018N 0000110W to -<br/>513035N 0000025W <br/>Upper limit: 1400 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>Flight permitted by:<br/>any aircraft in the service of the Chief Officer of Police for the Metropolitan Police District;<br/>any aircraft flying in accordance with a Special Flight Notification issued by the appropriate ATC unit;<br/>any helicopter flying on Helicopter Route H4;<br/>any aircraft flying in accordance with an Enhanced Non-Standard Flight clearance issued by the appropriate ATC unit;<br/>any aircraft approaching to, or departing from, London/City Airport.<br/><br/>See also ENR 1.1, paragraph 4.1.6.<br/><br/>SI 2091/2004.<br/><br/>Contact: www.nats.co.uk/nsf</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.0068583333,51.5097055556,426.7200000000001 -0.0082867913,51.5111814939,426.7200000000001 -0.0103077723,51.5123684169,426.7200000000001 -0.0126486151,51.51329883229999,426.7200000000001 -0.0152268831,51.5139399674,426.7200000000001 -0.0179517632,51.51426923799999,426.7200000000001 -0.020727269,51.51427504499999,426.7200000000001 -0.0234556276,51.5139571838,426.7200000000001 -0.0260407298,51.5133268516,426.7200000000001 -0.0283915214,51.51240625220001,426.7200000000001 -0.030425215,51.5112278124,426.7200000000001 -0.0320702078,51.5098330386,426.7200000000001 -0.0332686036,51.50827105250001,426.7200000000001 -0.0339782479,51.5065968595,426.7200000000001 -0.0341742076,51.5048694103,426.7200000000001 -0.0338496416,51.5031495242,426.7200000000001 -0.033016033,51.5014977474,426.7200000000001 -0.0317027778,51.4999722222,426.7200000000001 -0.0202666667,51.48911111110001,426.7200000000001 -0.0187899397,51.4881604117,426.7200000000001 -0.0170196811,51.4874451822,426.7200000000001 -0.0150110296,51.4870446916,426.7200000000001 -0.0129044713,51.4869869497,426.7200000000001 -0.0108473335,51.4872759947,426.7200000000001 -0.008983490199999999,51.4878916114,426.7200000000001 -0.0074433086,51.4887907435,426.7200000000001 -0.0063345359,51.4899105027,426.7200000000001 -0.005734762,51.4911725642,426.7200000000001 -0.005685986,51.49248864270001,426.7200000000001 -0.0061916667,51.4937666667,426.7200000000001 -0.009272222199999999,51.49840277780001,426.7200000000001 -0.0068583333,51.5097055556,426.7200000000001 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="25B1CA11D1F31C3B5399E">
+				<name>EGRU126C FAIROAKS RWY 24</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="8118" txt_name="FAIROAKS RWY 24"><tr><td>512239N 0002949W -<br/>512212N 0002922W -<br/>512142N 0003037W thence anti-clockwise by the arc of a circle radius 2 NM centred on 512053N 0003331W to<br/>512210N 0003104W -<br/>512239N 0002949W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.4969416667,51.37758888890001,609.6 -0.5178943056,51.3693692222,609.6 -0.5149878589,51.3669779903,609.6 -0.5124379479,51.3644324142,609.6 -0.5102653056000001,51.36175325,609.6 -0.4893055556,51.369975,609.6 -0.4969416667,51.37758888890001,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="265DBBCC5F231C3B5399E">
+				<name>EGRU127A DENHAM</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7590" txt_name="DENHAM"><tr><td>A circle, 2 NM radius, centred at 513518N 0003047W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.5129944444,51.6217164382,609.6 -0.5184936191,51.62153986119999,609.6 -0.5239343742,51.621012006,609.6 -0.5292589149,51.6201384801,609.6 -0.5344106889,51.6189285623,609.6 -0.5393349903,51.6173951042,609.6 -0.5439795438,51.6155543924,609.6 -0.5482950621,51.6134259744,609.6 -0.5522357706,51.6110324506,609.6 -0.5557598936,51.608399232,609.6 -0.5588300976,51.60555427029999,609.6 -0.5614138859,51.60252775930001,609.6 -0.5634839411,51.5993518132,609.6 -0.5650184115,51.59606012529999,609.6 -0.5660011389,51.5926876095,609.6 -0.5664218254,51.589270029,609.6 -0.5662761375000001,51.585843617,609.6 -0.5655657464,51.5824446922,609.6 -0.5642983056999999,51.57910927410001,609.6 -0.5624873639,51.57587270119999,609.6 -0.5601522173,51.5727692576,609.6 -0.5573177001,51.5698318103,609.6 -0.5540139185,51.5670914623,609.6 -0.5502759287,51.56457722420001,609.6 -0.5461433639,51.56231570839999,609.6 -0.5416600139,51.56033084849999,609.6 -0.5368733613,51.55864364759999,609.6 -0.5318340803,51.5572719567,609.6 -0.5265955023,51.5562302872,609.6 -0.5212130538999999,51.5555296584,609.6 -0.5157436739,51.5551774815,609.6 -0.510245215,51.5551774815,609.6 -0.504775835,51.5555296584,609.6 -0.4993933866,51.5562302872,609.6 -0.4941548086,51.5572719567,609.6 -0.4891155276,51.55864364759999,609.6 -0.484328875,51.56033084849999,609.6 -0.4798455249,51.56231570839999,609.6 -0.4757129602,51.56457722420001,609.6 -0.4719749703,51.5670914623,609.6 -0.4686711888000001,51.5698318103,609.6 -0.4658366715999999,51.5727692576,609.6 -0.4635015249,51.57587270119999,609.6 -0.4616905832,51.57910927410001,609.6 -0.4604231424,51.5824446922,609.6 -0.4597127514,51.585843617,609.6 -0.4595670635,51.589270029,609.6 -0.4599877499,51.5926876095,609.6 -0.4609704774,51.59606012529999,609.6 -0.4625049477,51.5993518132,609.6 -0.464575003,51.60252775930001,609.6 -0.4671587913,51.60555427029999,609.6 -0.4702289953,51.608399232,609.6 -0.4737531183000001,51.6110324506,609.6 -0.4776938267,51.6134259744,609.6 -0.4820093451,51.6155543924,609.6 -0.4866538986,51.6173951042,609.6 -0.4915782,51.6189285623,609.6 -0.4967299739,51.6201384801,609.6 -0.5020545147,51.621012006,609.6 -0.5074952698,51.62153986119999,609.6 -0.5129944444,51.6217164382,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="27277581A9C31C3B5399E">
+				<name>EGRU127B DENHAM RWY 06</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7659" txt_name="DENHAM RWY 06"><tr><td>513336N 0003432W -<br/>513404N 0003459W -<br/>513431N 0003344W thence anti-clockwise by the arc of a circle radius 2 NM centred on 513518N 0003047W to<br/>513404N 0003317W -<br/>513336N 0003432W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.5756055556,51.5599277778,609.6 -0.5547771667,51.56767425,609.6 -0.5576101111,51.57010516770001,609.6 -0.5600801312,51.5726852958,609.6 -0.5621670833,51.5753936389,609.6 -0.5829861111,51.56765,609.6 -0.5756055556,51.5599277778,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="28E7C2C43EB31C3B5399E">
+				<name>EGRU127C DENHAM RWY 24</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7990" txt_name="DENHAM RWY 24"><tr><td>513700N 0002704W -<br/>513632N 0002637W -<br/>513605N 0002750W thence anti-clockwise by the arc of a circle radius 2 NM centred on 513518N 0003047W to<br/>513633N 0002816W -<br/>513700N 0002704W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.450975,51.6166444444,609.6 -0.4711767778000001,51.60916325,609.6 -0.4683454518999999,51.6067302115,609.6 -0.4658782366,51.6041480831,609.6 -0.4637951944,51.6014379167,609.6 -0.4435833333,51.6089222222,609.6 -0.450975,51.6166444444,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="29866BA15F631C3B5399E">
+				<name>EGRU127D DENHAM RWY 12</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7708" txt_name="DENHAM RWY 12"><tr><td>513623N 0003455W -<br/>513652N 0003431W -<br/>513629N 0003322W thence anti-clockwise by the arc of a circle radius 2 NM centred on 513518N 0003047W to<br/>513600N 0003347W -<br/>513623N 0003455W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.5820527778,51.6064472222,609.6 -0.5630313056,51.6001324167,609.6 -0.5611342148,51.6028946338,609.6 -0.5588447291,51.6055390603,609.6 -0.5561814443999999,51.6080441389,609.6 -0.57525,51.61437500000001,609.6 -0.5820527778,51.6064472222,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="2A9390528EE31C3B5399E">
+				<name>EGRU127E DENHAM RWY 30</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7940" txt_name="DENHAM RWY 30"><tr><td>513416N 0002641W -<br/>513347N 0002706W -<br/>513409N 0002810W thence anti-clockwise by the arc of a circle radius 2 NM centred on 513518N 0003047W to<br/>513437N 0002746W -<br/>513416N 0002641W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.4448222222000001,51.57097499999999,609.6 -0.4628163333,51.57697613890001,609.6 -0.464678404,51.5742051095,609.6 -0.4669335187,51.5715499091,609.6 -0.4695632778,51.5690321389,609.6 -0.4516166667,51.5630472222,609.6 -0.4448222222000001,51.57097499999999,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="2BDC127811F31C3B5399E">
+				<name>EGRU128A LONDON HEATHROW</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7809" txt_name="LONDON HEATHROW"><tr><td>A circle, 2.5 NM radius, centred at 512839N 0002741W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.46135,51.519198392,609.6 -0.4675046258,51.5190207088,609.6 -0.4736065998,51.5184891791,609.6 -0.4796037246,51.51760834980001,609.6 -0.4854447065999999,51.5163857558,609.6 -0.4910795983,51.5148318544,609.6 -0.4964602286,51.51295993590001,609.6 -0.5015406165,51.5107860084,609.6 -0.5062773666,51.50832866060001,609.6 -0.5106300405,51.5056089011,609.6 -0.5145615031,51.5026499783,609.6 -0.5180382389,51.49947718029999,609.6 -0.5210306378,51.4961176176,609.6 -0.5235132452,51.4925999902,609.6 -0.5254649770000001,51.4889543421,609.6 -0.526869296,51.4852118033,609.6 -0.5277143491,51.48140432329999,609.6 -0.5279930642,51.47756439840001,609.6 -0.5277032055999999,51.4737247933,609.6 -0.5268473884,51.4699182621,609.6 -0.5254330514,51.46617726860001,609.6 -0.5234723888,51.46253370969999,609.6 -0.5209822419,51.4590186443,609.6 -0.5179839515,51.4556620291,609.6 -0.5145031729,51.4524924637,609.6 -0.510569654,51.4495369488,609.6 -0.5062169801,51.4468206561,609.6 -0.5014822864,51.4443667159,609.6 -0.4964059411,51.4421960211,609.6 -0.4910312023,51.4403270501,609.6 -0.4854038501,51.4387757108,609.6 -0.479571799,51.4375552059,609.6 -0.4735846922,51.436675922,609.6 -0.4674934822,51.436145341,609.6 -0.46135,51.43596797760001,609.6 -0.4552065178,51.436145341,609.6 -0.4491153078,51.436675922,609.6 -0.443128201,51.4375552059,609.6 -0.4372961499,51.4387757108,609.6 -0.4316687977,51.4403270501,609.6 -0.4262940589,51.4421960211,609.6 -0.4212177136,51.4443667159,609.6 -0.4164830199,51.4468206561,609.6 -0.412130346,51.4495369488,609.6 -0.4081968271,51.4524924637,609.6 -0.4047160485,51.4556620291,609.6 -0.4017177581,51.4590186443,609.6 -0.3992276111999999,51.46253370969999,609.6 -0.3972669486000001,51.46617726860001,609.6 -0.3958526116,51.4699182621,609.6 -0.3949967944000001,51.4737247933,609.6 -0.3947069358,51.47756439840001,609.6 -0.3949856508999999,51.48140432329999,609.6 -0.395830704,51.4852118033,609.6 -0.3972350230000001,51.4889543421,609.6 -0.3991867548,51.4925999902,609.6 -0.4016693622,51.4961176176,609.6 -0.4046617611,51.49947718029999,609.6 -0.4081384969,51.5026499783,609.6 -0.4120699595000001,51.5056089011,609.6 -0.4164226334,51.50832866060001,609.6 -0.4211593835,51.5107860084,609.6 -0.4262397714,51.51295993590001,609.6 -0.4316204017,51.5148318544,609.6 -0.4372552934000001,51.5163857558,609.6 -0.4430962754,51.51760834980001,609.6 -0.4490934002,51.5184891791,609.6 -0.4551953742000001,51.5190207088,609.6 -0.46135,51.519198392,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="2CDCE4AF56631C3B5399E">
+				<name>EGRU128B LONDON HEATHROW RWY 09L</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="8029" txt_name="LONDON HEATHROW RWY 09L"><tr><td>512814N 0003325W -<br/>512902N 0003325W -<br/>512903N 0003138W thence anti-clockwise by the arc of a circle radius 2.5 NM centred on 512839N 0002741W to<br/>512814N 0003137W -<br/>512814N 0003325W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.5569003333,51.4704933333,609.6 -0.5270472778,51.4706154722,609.6 -0.5277391047,51.473972328,609.6 -0.5279918993,51.4773531895,609.6 -0.527803899,51.4807356961,609.6 -0.52717625,51.48409747220001,609.6 -0.5570173333,51.48397538890001,609.6 -0.5569003333,51.4704933333,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="2D819F20FB231C3B5399E">
+				<name>EGRU128C LONDON HEATHROW RWY 27R</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7511" txt_name="LONDON HEATHROW RWY 27R"><tr><td>512905N 0002141W -<br/>512816N 0002141W -<br/>512816N 0002344W thence anti-clockwise by the arc of a circle radius 2.5 NM centred on 512839N 0002741W to<br/>512904N 0002344W -<br/>512905N 0002141W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.3613735833,51.4846374722,609.6 -0.3956410556000001,51.4845450833,609.6 -0.3949547368,51.4811877781,609.6 -0.3947077047,51.4778067502,609.6 -0.3949014835999999,51.47442436730001,609.6 -0.3955346944,51.471063,609.6 -0.3612565833,51.47115541669999,609.6 -0.3613735833,51.4846374722,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="2EF52B3E5C531C3B5399E">
+				<name>EGRU128D LONDON HEATHROW RWY 09R</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7545" txt_name="LONDON HEATHROW RWY 09R"><tr><td>512728N 0003315W -<br/>512817N 0003316W -<br/>512817N 0003138W thence anti-clockwise by the arc of a circle radius 2.5 NM centred on 512839N 0002741W to<br/>512729N 0003112W -<br/>512728N 0003315W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.5542044167,51.45779225,609.6 -0.5200781389,51.4579273056,609.6 -0.5225554954,51.46113478249999,609.6 -0.5245850906,51.4644627941,609.6 -0.5261519863,51.4678869878,609.6 -0.5272446111,51.4713823056,609.6 -0.5543178889,51.47127436110001,609.6 -0.5542044167,51.45779225,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="2FD416CB05531C3B5399E">
+				<name>EGRU128E LONDON HEATHROW RWY 27L</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7937" txt_name="LONDON HEATHROW RWY 27L"><tr><td>512819N 0002144W -<br/>512730N 0002144W -<br/>512730N 0002408W thence anti-clockwise by the arc of a circle radius 2.5 NM centred on 512839N 0002741W to<br/>512819N 0002343W -<br/>512819N 0002144W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.3622085,51.4719051944,609.6 -0.3953535278,51.4718188333,609.6 -0.3963867682,51.4683164757,609.6 -0.397895493,51.46488210049999,609.6 -0.3998685359,51.4615408393,609.6 -0.4022913611,51.4583171389,609.6 -0.3620950278,51.4584231111,609.6 -0.3622085,51.4719051944,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="309BC3217C331C3B5399E">
+				<name>EGRU129A NORTHOLT</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7976" txt_name="NORTHOLT"><tr><td>A circle, 2 NM radius, centred at 513310N 0002511W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.4197222222,51.5860694194,609.6 -0.4252170924999999,51.58589284140001,609.6 -0.4306535891,51.5853649835,609.6 -0.4359739627,51.58449145300001,609.6 -0.4411217051,51.5832815289,609.6 -0.4460421536,51.5817480627,609.6 -0.4506830738000001,51.5799073411,609.6 -0.4549952171,51.5777789117,609.6 -0.4589328445,51.5753853748,609.6 -0.4624542133000001,51.5727521418,609.6 -0.4655220189,51.56990716420001,609.6 -0.4681037901,51.5668806359,609.6 -0.4701722306,51.5637046715,609.6 -0.4717055057,51.56041296439999,609.6 -0.4726874696,51.5570404286,609.6 -0.4731078322,51.5536228274,609.6 -0.4729622633,51.5501963944,609.6 -0.4722524326,51.5467974485,609.6 -0.4709859873,51.54346200929999,609.6 -0.4691764654,51.5402254156,609.6 -0.4668431476,51.53712195180001,609.6 -0.4640108489,51.53418448519999,609.6 -0.4607096516,51.5314441189,609.6 -0.4569745846,51.5289298638,609.6 -0.45284525,51.5266683326,609.6 -0.4483654033,51.5246834591,609.6 -0.4435824903,51.5229962465,609.6 -0.4385471456000001,51.521624546,609.6 -0.4333126589,51.5205828693,609.6 -0.4279344138,51.51988223559999,609.6 -0.4224693049,51.5195300562,609.6 -0.4169751395,51.5195300562,609.6 -0.4115100306,51.51988223559999,609.6 -0.4061317855,51.5205828693,609.6 -0.4008972988,51.521624546,609.6 -0.3958619541,51.5229962465,609.6 -0.3910790411,51.5246834591,609.6 -0.3865991945000001,51.5266683326,609.6 -0.3824698599,51.5289298638,609.6 -0.3787347928,51.5314441189,609.6 -0.3754335956,51.53418448519999,609.6 -0.3726012968,51.53712195180001,609.6 -0.3702679791,51.5402254156,609.6 -0.3684584571999999,51.54346200929999,609.6 -0.3671920117999999,51.5467974485,609.6 -0.3664821812,51.5501963944,609.6 -0.3663366122,51.5536228274,609.6 -0.3667569749,51.5570404286,609.6 -0.3677389388,51.56041296439999,609.6 -0.3692722138,51.5637046715,609.6 -0.3713406543,51.5668806359,609.6 -0.3739224255,51.56990716420001,609.6 -0.3769902312,51.5727521418,609.6 -0.3805115998999999,51.5753853748,609.6 -0.3844492274,51.5777789117,609.6 -0.3887613706,51.5799073411,609.6 -0.3934022908,51.5817480627,609.6 -0.3983227393,51.5832815289,609.6 -0.4034704818,51.58449145300001,609.6 -0.4087908553,51.5853649835,609.6 -0.414227352,51.58589284140001,609.6 -0.4197222222,51.5860694194,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="31F213E0F0E31C3B5399E">
+				<name>EGRU129B NORTHOLT RWY 07</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7806" txt_name="NORTHOLT RWY 07"><tr><td>513150N 0002942W -<br/>513221N 0003000W -<br/>513244N 0002819W thence anti-clockwise by the arc of a circle radius 2 NM centred on 513310N 0002511W to<br/>513214N 0002801W -<br/>513150N 0002942W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.4949055556,51.5306527778,609.6 -0.466825,51.53710075,609.6 -0.4689011239999999,51.5398120238,609.6 -0.4705770388,51.54262895259999,609.6 -0.4718390278,51.5455286111,609.6 -0.4998722221999999,51.5390916667,609.6 -0.4949055556,51.5306527778,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="32094C635F831C3B5399E">
+				<name>EGRU129C NORTHOLT RWY 25</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7684" txt_name="NORTHOLT RWY 25"><tr><td>513430N 0002035W -<br/>513400N 0002017W -<br/>513335N 0002203W thence anti-clockwise by the arc of a circle radius 2 NM centred on 513310N 0002511W to<br/>513406N 0002221W -<br/>513430N 0002035W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.3429888889,51.5750055556,609.6 -0.3724551111,51.5682804444,609.6 -0.3704066466,51.5655610198,609.6 -0.3687601003,51.5627375531,609.6 -0.3675288056,51.55983305560001,609.6 -0.3380138889,51.5665694444,609.6 -0.3429888889,51.5750055556,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="3605B66209E31C3B5399E">
+				<name>EGRU131A ELSTREE</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7624" txt_name="ELSTREE"><tr><td>A circle, 2 NM radius, centred at 513921N 0001933W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.32585,51.68911605390001,609.6 -0.3313573375,51.68893947859999,609.6 -0.3368061684,51.68841162860001,609.6 -0.3421386119,51.6875381112,609.6 -0.3472980312,51.6863282054,609.6 -0.3522296393,51.68479476259999,609.6 -0.3568810829999999,51.6829540693,609.6 -0.3612030018,51.680825673,609.6 -0.365149553,51.6784321737,609.6 -0.3686788992,51.67579898259999,609.6 -0.3717536515000001,51.672954051,609.6 -0.3743412651,51.6699275723,609.6 -0.3764143825,51.66675166080001,609.6 -0.3779511197,51.66346000930001,609.6 -0.378935295,51.6600875314,609.6 -0.3793565956,51.6566699898,609.6 -0.3792106819,51.65324361759999,609.6 -0.3784992283,51.6498447329,609.6 -0.3772298997,51.6465093546,609.6 -0.3754162653999999,51.64327282090001,609.6 -0.3730776505000001,51.64016941549999,609.6 -0.3702389262,51.6372320048,609.6 -0.3669302437,51.6344916913,609.6 -0.3631867112000001,51.6319774852,609.6 -0.3590480206,51.62971599849999,609.6 -0.3545580267,51.62773116449999,609.6 -0.3497642823,51.62604398559999,609.6 -0.3447175366,51.6246723128,609.6 -0.3394711997,51.62363065710001,609.6 -0.3340807801,51.6229300376,609.6 -0.3286033007,51.62257786529999,609.6 -0.3230966993,51.62257786529999,609.6 -0.3176192199,51.6229300376,609.6 -0.3122288003,51.62363065710001,609.6 -0.3069824634,51.6246723128,609.6 -0.3019357177,51.62604398559999,609.6 -0.2971419733,51.62773116449999,609.6 -0.2926519794,51.62971599849999,609.6 -0.2885132888,51.6319774852,609.6 -0.2847697563,51.6344916913,609.6 -0.2814610738,51.6372320048,609.6 -0.2786223495,51.64016941549999,609.6 -0.2762837346,51.64327282090001,609.6 -0.2744701003,51.6465093546,609.6 -0.2732007717,51.6498447329,609.6 -0.2724893181,51.65324361759999,609.6 -0.2723434044,51.6566699898,609.6 -0.272764705,51.6600875314,609.6 -0.2737488803,51.66346000930001,609.6 -0.2752856175,51.66675166080001,609.6 -0.2773587349,51.6699275723,609.6 -0.2799463485,51.672954051,609.6 -0.2830211008,51.67579898259999,609.6 -0.286550447,51.6784321737,609.6 -0.2904969982,51.680825673,609.6 -0.294818917,51.6829540693,609.6 -0.2994703607,51.68479476259999,609.6 -0.3044019688,51.6863282054,609.6 -0.3095613881,51.6875381112,609.6 -0.3148938316,51.68841162860001,609.6 -0.3203426625,51.68893947859999,609.6 -0.32585,51.68911605390001,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="3723C7D396E31C3B5399E">
+				<name>EGRU131B ELSTREE RWY 08</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7536" txt_name="ELSTREE RWY 08"><tr><td>513834N 0002401W -<br/>513906N 0002410W -<br/>513916N 0002246W thence anti-clockwise by the arc of a circle radius 2 NM centred on 513921N 0001933W to<br/>513844N 0002236W -<br/>513834N 0002401W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.40025,51.6427944444,609.6 -0.3767162778,51.6454770833,609.6 -0.3780102409,51.64837118879999,609.6 -0.3788797193999999,51.6513260665,609.6 -0.3793175556,51.6543176667,609.6 -0.4028416667,51.6516361111,609.6 -0.40025,51.6427944444,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="38C8FDBC39E31C3B5399E">
+				<name>EGRU131C ELSTREE RWY 26</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="8130" txt_name="ELSTREE RWY 26"><tr><td>514008N 0001505W -<br/>513936N 0001456W -<br/>513926N 0001621W thence anti-clockwise by the arc of a circle radius 2 NM centred on 513921N 0001933W to<br/>513958N 0001630W -<br/>514008N 0001505W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.251425,51.66880833330001,609.6 -0.2749615278,51.6661527222,609.6 -0.2736733649,51.6632575555,609.6 -0.2728102231,51.6603019573,609.6 -0.2723790556,51.65731000000001,609.6 -0.2488333333,51.65996666670001,609.6 -0.251425,51.66880833330001,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="A53E33DCBF31C3B5399F">
+				<name>EGRU135A LONDON CITY</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7907" txt_name="LONDON CITY"><tr><td>A circle, 2 NM radius, centred at 513019N 0000319E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.0551777778,51.5385224685,609.6 0.049688635,51.5383458893,609.6 0.04425780480000001,51.5378180277,609.6 0.0389429762,51.5369444912,609.6 0.0338005981,51.53573455860001,609.6 0.0288852764,51.5342010816,609.6 0.0242491907,51.5323603469,609.6 0.0199415384,51.53023190230001,609.6 0.0160080105,51.527838348,609.6 0.0124903067,51.5252050956,609.6 0.0094256923,51.5223600968,609.6 0.0068466052,51.5193335456,609.6 0.0047803132,51.5161575568,609.6 0.0032486287,51.512865824,609.6 0.0022676808,51.5094932614,609.6 0.001847749,51.5060756327,609.6 0.0019931596,51.50264917169999,609.6 0.0027022447,51.4992501975,609.6 0.0039673655,51.4959147301,609.6 0.005774998199999999,51.49267810879999,609.6 0.0081058824,51.489574618,609.6 0.0109352292,51.48663712559999,609.6 0.0142329877,51.4838967349,609.6 0.0179641657,51.4813824572,609.6 0.0220892021,51.4791209055,609.6 0.0265643871,51.4771360138,609.6 0.0313423241,51.47544878560001,609.6 0.0363724312,51.4740770724,609.6 0.0416014737,51.473035386,609.6 0.0469741258,51.4723347457,609.6 0.05243355169999999,51.471982563,609.6 0.0579220039,51.471982563,609.6 0.0633814298,51.4723347457,609.6 0.06875408180000001,51.473035386,609.6 0.0739831244,51.4740770724,609.6 0.07901323139999999,51.47544878560001,609.6 0.0837911685,51.4771360138,609.6 0.0882663534,51.4791209055,609.6 0.0923913899,51.4813824572,609.6 0.0961225678,51.4838967349,609.6 0.0994203263,51.48663712559999,609.6 0.1022496732,51.489574618,609.6 0.1045805574,51.49267810879999,609.6 0.1063881901,51.4959147301,609.6 0.1076533108,51.4992501975,609.6 0.1083623959,51.50264917169999,609.6 0.1085078065,51.5060756327,609.6 0.1080878748,51.5094932614,609.6 0.1071069268,51.512865824,609.6 0.1055752423,51.5161575568,609.6 0.1035089504,51.5193335456,609.6 0.1009298632,51.5223600968,609.6 0.09786524889999999,51.5252050956,609.6 0.094347545,51.527838348,609.6 0.0904140172,51.53023190230001,609.6 0.0861063648,51.5323603469,609.6 0.0814702792,51.5342010816,609.6 0.0765549574,51.53573455860001,609.6 0.0714125794,51.5369444912,609.6 0.06609775079999999,51.5378180277,609.6 0.06066692059999999,51.5383458893,609.6 0.0551777778,51.5385224685,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="B993A55E6631C3B5399F">
+				<name>EGRU135B LONDON CITY RWY 09</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="8014" txt_name="LONDON CITY RWY 09"><tr><td>513012N 0000136W -<br/>513044N 0000133W -<br/>513041N 0000010E thence anti-clockwise by the arc of a circle radius 2 NM centred on 513019N 0000319E to<br/>513009N 0000007E -<br/>513012N 0000136W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.0265288333,51.50327555559999,609.6 0.0020265,51.5023953889,609.6 0.0018316307,51.50539711759999,609.6 0.0020711489,51.5083975865,609.6 0.0027431944,51.5113723611,609.6 -0.0258050833,51.5122523333,609.6 -0.0265288333,51.50327555559999,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="C24DD2984A31C3B5399F">
+				<name>EGRU135C LONDON CITY RWY 27</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7703" txt_name="LONDON CITY RWY 27"><tr><td>513026N 0000814E -<br/>512953N 0000811E -<br/>512957N 0000627E thence anti-clockwise by the arc of a circle radius 2 NM centred on 513019N 0000319E to<br/>513029N 0000630E -<br/>513026N 0000814E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.1372346667,51.5071330556,609.6 0.1083335278,51.5080571389,609.6 0.1085236627,51.5050552868,609.6 0.1082794163,51.5020549588,609.6 0.1076028611,51.4990805833,609.6 0.136511,51.49815627780001,609.6 0.1372346667,51.5071330556,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="D5EBE7B87C31C3B5399F">
+				<name>EGRU136A STAPLEFORD</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7824" txt_name="STAPLEFORD"><tr><td>A circle, 2 NM radius, centred at 513909N 0000922E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.1560083333,51.6857966284,609.6 0.1505013986,51.685620053,609.6 0.1450529662,51.68509220280001,609.6 0.1397209126,51.684218685,609.6 0.1345618705,51.68300877859999,609.6 0.129630623,51.681475335,609.6 0.1249795192,51.6796346408,609.6 0.1206579162,51.67750624340001,609.6 0.1167116533,51.6751127429,609.6 0.1131825649,51.67247955050001,609.6 0.110108037,51.6696346173,609.6 0.1075206121,51.66660813710001,609.6 0.1054476458,51.66343222390001,609.6 0.1039110205,51.6601405706,609.6 0.1029269166,51.6567680908,609.6 0.1025056463,51.6533505473,609.6 0.1026515488,51.6499241731,609.6 0.1033629501,51.6465252864,609.6 0.1046321855,51.6431899062,609.6 0.1064456869,51.6399533706,609.6 0.1087841307,51.6368499633,609.6 0.1116226474,51.63391255079999,609.6 0.1149310881,51.6311722356,609.6 0.1186743472,51.6286580279,609.6 0.1228127354,51.6263965398,609.6 0.1273024016,51.62441170450001,609.6 0.132095796,51.6227245245,609.6 0.1371421734,51.6213528508,609.6 0.1423881274,51.6203111944,609.6 0.1477781538,51.61961057449999,609.6 0.1532552335,51.61925840200001,609.6 0.1587614331,51.61925840200001,609.6 0.1642385129,51.61961057449999,609.6 0.1696285392,51.6203111944,609.6 0.1748744933,51.6213528508,609.6 0.1799208706,51.6227245245,609.6 0.1847142651,51.62441170450001,609.6 0.1892039312,51.6263965398,609.6 0.1933423195,51.6286580279,609.6 0.1970855786,51.6311722356,609.6 0.2003940193,51.63391255079999,609.6 0.2032325359,51.6368499633,609.6 0.2055709798,51.6399533706,609.6 0.2073844812,51.6431899062,609.6 0.2086537166,51.6465252864,609.6 0.2093651178,51.6499241731,609.6 0.2095110204,51.6533505473,609.6 0.2090897501,51.6567680908,609.6 0.2081056462,51.6601405706,609.6 0.2065690208,51.66343222390001,609.6 0.2044960546,51.66660813710001,609.6 0.2019086297,51.6696346173,609.6 0.1988341018,51.67247955050001,609.6 0.1953050134,51.6751127429,609.6 0.1913587504,51.67750624340001,609.6 0.1870371475,51.6796346408,609.6 0.1823860437,51.681475335,609.6 0.1774547962,51.68300877859999,609.6 0.172295754,51.684218685,609.6 0.1669637005,51.68509220280001,609.6 0.161515268,51.685620053,609.6 0.1560083333,51.6857966284,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="EC8B313B1B31C3B5399F">
+				<name>EGRU136B STAPLEFORD RWY 03L</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7861" txt_name="STAPLEFORD RWY 03L"><tr><td>513634N 0000654E -<br/>513653N 0000612E -<br/>513743N 0000708E thence anti-clockwise by the arc of a circle radius 2 NM centred on 513909N 0000922E to<br/>513724N 0000750E -<br/>513634N 0000654E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.114975,51.6095305556,609.6 0.1306218889,51.62320063889999,609.6 0.1264803317,51.6247434871,609.6 0.1225788083,51.62651232070001,609.6 0.1189490556,51.62849275,609.6 0.1032222222,51.61475,609.6 0.114975,51.6095305556,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="F251D6421131C3B5399F">
+				<name>EGRU136C STAPLEFORD RWY 21R</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="8133" txt_name="STAPLEFORD RWY 21R"><tr><td>514140N 0001141E -<br/>514122N 0001223E -<br/>514037N 0001132E thence anti-clockwise by the arc of a circle radius 2 NM centred on 513909N 0000922E to<br/>514056N 0001050E -<br/>514140N 0001141E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.1946944444,51.6945361111,609.6 0.1804416944,51.6821273889,609.6 0.1846372067,51.6806366835,609.6 0.1885991606,51.6789167892,609.6 0.1922952778,51.67698175,609.6 0.2064694444,51.6893194444,609.6 0.1946944444,51.6945361111,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="10549B2DFDD31C3B5399F">
+				<name>EGRU136D STAPLEFORD RWY 03R</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7558" txt_name="STAPLEFORD RWY 03R"><tr><td>513634N 0000656E -<br/>513652N 0000613E -<br/>513742N 0000710E thence anti-clockwise by the arc of a circle radius 2 NM centred on 513909N 0000922E to<br/>513723N 0000752E -<br/>513634N 0000656E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.1154222222,51.6093166667,609.6 0.1311190278,51.62303599999999,609.6 0.126951311,51.6245517675,609.6 0.1230198351,51.6262951166,609.6 0.1193565833,51.6282518611,609.6 0.1036666667,51.61453611109999,609.6 0.1154222222,51.6093166667,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="119190695F531C3B5399F">
+				<name>EGRU136E STAPLEFORD RWY 21L</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7721" txt_name="STAPLEFORD RWY 21L"><tr><td>514140N 0001143E -<br/>514121N 0001225E -<br/>514036N 0001134E thence anti-clockwise by the arc of a circle radius 2 NM centred on 513909N 0000922E to<br/>514055N 0001051E -<br/>514140N 0001143E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.1951388889,51.6943527778,609.6 0.1809234167,51.68197180559999,609.6 0.1850942614,51.6804547511,609.6 0.1890278444,51.678710016,609.6 0.1926921111,51.67675183330001,609.6 0.2069138889,51.6891361111,609.6 0.1951388889,51.6943527778,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="12A0C9B0E8D31C3B5399F">
+				<name>EGRU137A LONDON STANSTED</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7979" txt_name="LONDON STANSTED"><tr><td>A circle, 2.5 NM radius, centred at 515306N 0001406E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.235,51.9266121564,609.6 0.2287898076,51.92643448310001,609.6 0.2226327443,51.92590298339999,609.6 0.2165814812,51.9250222041,609.6 0.2106877765,51.9237996799,609.6 0.2050020304,51.9222458679,609.6 0.1995728501,51.92037405800001,609.6 0.1944466326,51.9182002582,609.6 0.1896671656,51.9157430564,609.6 0.1852752525,51.9130234609,609.6 0.1813083633,51.9100647192,609.6 0.1778003149,51.90689211849999,609.6 0.1747809834,51.9035327683,609.6 0.1722760514,51.9000153673,609.6 0.1703067912,51.896369958,609.6 0.1688898867,51.8926276688,609.6 0.1680372953,51.8888204475,609.6 0.1677561503,51.8849807881,609.6 0.1680487046,51.8811414532,609.6 0.1689123167,51.87733519460001,609.6 0.1703394781,51.8735944735,609.6 0.1723178822,51.8699511843,609.6 0.1748305335,51.8664363832,609.6 0.1778558969,51.86308002400001,609.6 0.1813680845,51.8599107037,609.6 0.1853370792,51.85695542020001,609.6 0.1897289923,51.8542393427,609.6 0.1945063538,51.851785599,609.6 0.1996284322,51.8496150796,609.6 0.2050515805,51.84774626079999,609.6 0.2107296074,51.84619504860001,609.6 0.2166141682,51.8449746444,609.6 0.2226551744,51.8440954332,609.6 0.2288012169,51.8435648963,609.6 0.235,51.8433875477,609.6 0.2411987831,51.8435648963,609.6 0.2473448256,51.8440954332,609.6 0.2533858318,51.8449746444,609.6 0.2592703926,51.84619504860001,609.6 0.2649484195,51.84774626079999,609.6 0.2703715678,51.8496150796,609.6 0.2754936462,51.851785599,609.6 0.2802710077,51.8542393427,609.6 0.2846629208,51.85695542020001,609.6 0.2886319155,51.8599107037,609.6 0.2921441031,51.86308002400001,609.6 0.2951694665,51.8664363832,609.6 0.2976821178,51.8699511843,609.6 0.2996605219,51.8735944735,609.6 0.3010876833,51.87733519460001,609.6 0.3019512954,51.8811414532,609.6 0.3022438497,51.8849807881,609.6 0.3019627047,51.8888204475,609.6 0.3011101133,51.8926276688,609.6 0.2996932088,51.896369958,609.6 0.2977239486,51.9000153673,609.6 0.2952190166,51.9035327683,609.6 0.2921996851,51.90689211849999,609.6 0.2886916367,51.9100647192,609.6 0.2847247475,51.9130234609,609.6 0.2803328344,51.9157430564,609.6 0.2755533674,51.9182002582,609.6 0.2704271499,51.92037405800001,609.6 0.2649979696,51.9222458679,609.6 0.2593122235,51.9237996799,609.6 0.2534185188,51.9250222041,609.6 0.2473672557,51.92590298339999,609.6 0.2412101924,51.92643448310001,609.6 0.235,51.9266121564,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="1307C1836A431C3B5399F">
+				<name>EGRU137B LONDON STANSTED RWY 04</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7603" txt_name="LONDON STANSTED RWY 04"><tr><td>515028N 0001044E -<br/>515050N 0001005E -<br/>515128N 0001103E thence anti-clockwise by the arc of a circle radius 2.5 NM centred on 515306N 0001406E to<br/>515106N 0001141E -<br/>515028N 0001044E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.1788194444,51.8410361111,609.6 0.1947456944,51.85167430559999,609.6 0.1909710506,51.8535562167,609.6 0.187424914,51.8556015888,609.6 0.1841257222,51.85779980560001,609.6 0.1681888889,51.84715277780001,609.6 0.1788194444,51.8410361111,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="1461624999A31C3B5399F">
+				<name>EGRU137C LONDON STANSTED RWY 22</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7719" txt_name="LONDON STANSTED RWY 22"><tr><td>515552N 0001739E -<br/>515530N 0001817E -<br/>515444N 0001709E thence anti-clockwise by the arc of a circle radius 2.5 NM centred on 515306N 0001406E to<br/>515506N 0001630E -<br/>515552N 0001739E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.2941833333,51.93113055560001,609.6 0.2750736667,51.9184224444,609.6 0.2788639154,51.916548197,609.6 0.2824255347,51.9145097839,609.6 0.28574,51.91231783329999,609.6 0.3048388889,51.9250166667,609.6 0.2941833333,51.93113055560001,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="15F38728A3B31C3B5399F">
+				<name>EGRU138A ANDREWSFIELD</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7531" txt_name="ANDREWSFIELD"><tr><td>A circle, 2 NM radius, centred at 515342N 0002657E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.4491666667,51.9282896919,609.6 0.4436301033,51.9281131227,609.6 0.4381523581,51.927585291,609.6 0.4327916200999999,51.926711804,609.6 0.4276048275,51.9255019406,609.6 0.422647059,51.9239685519,609.6 0.4179709460000001,51.92212792399999,609.6 0.4136261113,51.9199996043,609.6 0.4096586409,51.91760619210001,609.6 0.4061105941,51.9149730981,609.6 0.4030195576,51.9121282729,609.6 0.4004182481,51.90910190909999,609.6 0.3983341674,51.90592612,609.6 0.3967893144,51.9026345974,609.6 0.3957999552,51.8992622536,609.6 0.3953764561,51.89584485030001,609.6 0.3955231779999999,51.8924186188,609.6 0.3962384364,51.88901987600001,609.6 0.3975145241,51.88568463899999,609.6 0.3993377987,51.8824482445,609.6 0.4016888316,51.8793449744,609.6 0.4045426185,51.8764076934,609.6 0.4078688481,51.8736675024,609.6 0.4116322255,51.87115341000001,609.6 0.4157928483000001,51.86889202660001,609.6 0.4203066295,51.86690728399999,609.6 0.4251257647,51.86522018340001,609.6 0.4301992364,51.86384857459999,609.6 0.4354733526,51.86280696779999,609.6 0.4408923116999999,51.8621063813,609.6 0.4463987897999999,51.8617542257,609.6 0.4519345435,51.8617542257,609.6 0.4574410216,51.8621063813,609.6 0.4628599807,51.86280696779999,609.6 0.4681340969,51.86384857459999,609.6 0.4732075687,51.86522018340001,609.6 0.4780267038,51.86690728399999,609.6 0.4825404851000001,51.86889202660001,609.6 0.4867011077999999,51.87115341000001,609.6 0.4904644852,51.8736675024,609.6 0.4937907147999999,51.8764076934,609.6 0.4966445018,51.8793449744,609.6 0.4989955347,51.8824482445,609.6 0.5008188092,51.88568463899999,609.6 0.502094897,51.88901987600001,609.6 0.5028101553,51.8924186188,609.6 0.5029568773,51.89584485030001,609.6 0.5025333781,51.8992622536,609.6 0.5015440189,51.9026345974,609.6 0.4999991659,51.90592612,609.6 0.4979150853,51.90910190909999,609.6 0.4953137757,51.9121282729,609.6 0.4922227392,51.9149730981,609.6 0.4886746924,51.91760619210001,609.6 0.484707222,51.9199996043,609.6 0.4803623874,51.92212792399999,609.6 0.4756862743,51.9239685519,609.6 0.4707285057999999,51.9255019406,609.6 0.4655417132,51.926711804,609.6 0.4601809752,51.927585291,609.6 0.45470323,51.9281131227,609.6 0.4491666667,51.9282896919,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="16A247C732531C3B5399F">
+				<name>EGRU138B ANDREWSFIELD RWY 09L</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7621" txt_name="ANDREWSFIELD RWY 09L"><tr><td>515311N 0002223E -<br/>515343N 0002219E -<br/>515348N 0002344E thence anti-clockwise by the arc of a circle radius 2 NM centred on 515342N 0002657E to<br/>515316N 0002348E -<br/>515311N 0002223E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.3730888889,51.8864027778,609.6 0.3966865556,51.88766425,609.6 0.3958296993000001,51.89062131390001,609.6 0.3954070986,51.89361413149999,609.6 0.3954222778,51.8966183333,609.6 0.3718527778,51.8953583333,609.6 0.3730888889,51.8864027778,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="177C5BE429631C3B5399F">
+				<name>EGRU138C ANDREWSFIELD RWY 27R</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7980" txt_name="ANDREWSFIELD RWY 27R"><tr><td>515413N 0003137E -<br/>515341N 0003142E -<br/>515336N 0003010E thence anti-clockwise by the arc of a circle radius 2 NM centred on 515342N 0002657E to<br/>515408N 0003006E -<br/>515413N 0003137E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.5269916667,51.9035638889,609.6 0.5016900556,51.9022398056,609.6 0.5025295237,51.89928078159999,609.6 0.502934256,51.89628698540001,609.6 0.5029010556,51.8932828056,609.6 0.5282305556,51.89460833329999,609.6 0.5269916667,51.9035638889,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="1811490C58F31C3B5399F">
+				<name>EGRU138D ANDREWSFIELD RWY 09R</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7568" txt_name="ANDREWSFIELD RWY 09R"><tr><td>515310N 0002223E -<br/>515342N 0002218E -<br/>515347N 0002343E thence anti-clockwise by the arc of a circle radius 2 NM centred on 515342N 0002657E to<br/>515315N 0002348E -<br/>515310N 0002223E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.3729722222,51.8861333333,609.6 0.3967850555999999,51.8873999167,609.6 0.3958892902,51.8903525916,609.6 0.3954272954,51.89334320879999,609.6 0.3954029167000001,51.8963474167,609.6 0.3717416667,51.8950888889,609.6 0.3729722222,51.8861333333,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="1936A47F94E31C3B5399F">
+				<name>EGRU138E ANDREWSFIELD RWY 27L</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="8161" txt_name="ANDREWSFIELD RWY 27L"><tr><td>515412N 0003137E -<br/>515340N 0003142E -<br/>515335N 0003010E thence anti-clockwise by the arc of a circle radius 2 NM centred on 515342N 0002657E to<br/>515407N 0003006E -<br/>515412N 0003137E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.5270416667,51.9032611111,609.6 0.50179325,51.90194663890001,609.6 0.502589532,51.8989830515,609.6 0.5029506279,51.8959871214,609.6 0.5028736667,51.89298324999999,609.6 0.5282722222,51.8943055556,609.6 0.5270416667,51.9032611111,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="22140DE5C0031C3B5399F">
+				<name>EGRU141A EARLS COLNE</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7792" txt_name="EARLS COLNE"><tr><td>A circle, 2 NM radius, centred at 515452N 0004057E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.6825,51.9477340257,609.6 0.6769610427,51.947557457,609.6 0.6714809291,51.9470296268,609.6 0.6661178735,51.9461561423,609.6 0.6609288387,51.94494628230001,609.6 0.6559689273,51.94341289800001,609.6 0.6512907936,51.94157227549999,609.6 0.6469440818,51.9394439619,609.6 0.6429748979,51.9370505568,609.6 0.6394253193,51.93441747070001,609.6 0.636332949,51.9315726541,609.6 0.6337305176,51.9285462996,609.6 0.631645539,51.9253705205,609.6 0.6301000212,51.9220790084,609.6 0.6291102374,51.9187066755,609.6 0.6286865582,51.9152892834,609.6 0.6288333463,51.9118630633,609.6 0.6295489163,51.908464332,609.6 0.6308255577,51.90512910650001,609.6 0.632649622,51.9018927233,609.6 0.635001672,51.8987894642,609.6 0.6378566928,51.8958521937,609.6 0.6411843597,51.8931120127,609.6 0.6449493626,51.8905979296,609.6 0.6491117818,51.8883365545,609.6 0.6536275115,51.8863518193,609.6 0.6584487265,51.8846647251,609.6 0.6635243874,51.8832931215,609.6 0.668800779,51.8822515187,609.6 0.6742220758,51.8815509349,609.6 0.6797309292,51.8811987806,609.6 0.6852690708,51.8811987806,609.6 0.6907779241999999,51.8815509349,609.6 0.696199221,51.8822515187,609.6 0.7014756126,51.8832931215,609.6 0.7065512735000001,51.8846647251,609.6 0.7113724885,51.8863518193,609.6 0.7158882182,51.8883365545,609.6 0.7200506374,51.8905979296,609.6 0.7238156403,51.8931120127,609.6 0.7271433072,51.8958521937,609.6 0.729998328,51.8987894642,609.6 0.7323503780000001,51.9018927233,609.6 0.7341744422999998,51.90512910650001,609.6 0.7354510837,51.908464332,609.6 0.7361666536999999,51.9118630633,609.6 0.7363134417999999,51.9152892834,609.6 0.7358897625999999,51.9187066755,609.6 0.7348999788,51.9220790084,609.6 0.733354461,51.9253705205,609.6 0.7312694824,51.9285462996,609.6 0.728667051,51.9315726541,609.6 0.7255746807,51.93441747070001,609.6 0.7220251021,51.9370505568,609.6 0.7180559182000001,51.9394439619,609.6 0.7137092064,51.94157227549999,609.6 0.7090310727,51.94341289800001,609.6 0.7040711613,51.94494628230001,609.6 0.6988821265,51.9461561423,609.6 0.6935190709,51.9470296268,609.6 0.6880389573,51.947557457,609.6 0.6825,51.9477340257,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="2329C292E1E31C3B5399F">
+				<name>EGRU141B EARLS COLNE RWY 06</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7746" txt_name="EARLS COLNE RWY 06"><tr><td>515309N 0003708E -<br/>515337N 0003642E -<br/>515405N 0003759E thence anti-clockwise by the arc of a circle radius 2 NM centred on 515452N 0004057E to<br/>515337N 0003826E -<br/>515309N 0003708E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.6188194444,51.8858888889,609.6 0.6405008056,51.89362883329999,609.6 0.6376370069,51.8960555344,609.6 0.6351382452,51.8986320512,609.6 0.6330249167000001,51.90133741670001,609.6 0.6115694444000001,51.8936777778,609.6 0.6188194444,51.8858888889,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="24FC2AB495C31C3B5399F">
+				<name>EGRU141C EARLS COLNE RWY 24</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7902" txt_name="EARLS COLNE RWY 24"><tr><td>515631N 0004450E -<br/>515603N 0004516E -<br/>515535N 0004358E thence anti-clockwise by the arc of a circle radius 2 NM centred on 515452N 0004057E to<br/>515604N 0004332E -<br/>515631N 0004450E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.7473027778,51.94202500000001,609.6 0.7256713333,51.9343375,609.6 0.7283957123,51.9318493242,609.6 0.7307458014,51.9292193892,609.6 0.7327025,51.92646913890001,609.6 0.7545583333,51.93423611109999,609.6 0.7473027778,51.94202500000001,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="25DCD052EAB31C3B5399F">
+				<name>EGRU142A SOUTHEND</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7552" txt_name="SOUTHEND"><tr><td>A circle, 2.5 NM radius, centred at 513413N 0004136E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.6933333333,51.6118921753,609.6 0.6871661804,51.6117144943,609.6 0.6810517867,51.6111829714,609.6 0.6750424567,51.6103021536,609.6 0.6691895887,51.6090795755,609.6 0.6635432321,51.6075256945,609.6 0.6581516565,51.60565380079999,609.6 0.6530609364,51.6034799024,609.6 0.648314556,51.6010225879,609.6 0.6439530358,51.5983028658,609.6 0.6400135863999999,51.5953439844,609.6 0.6365297913,51.5921712314,609.6 0.6335313205000001,51.5888117171,609.6 0.63104368,51.5852941413,609.6 0.6290879964,51.5816485477,609.6 0.62768084,51.5779060657,609.6 0.6268340873,51.5740986447,609.6 0.6265548244,51.5702587803,609.6 0.6268452906,51.5664192368,609.6 0.6277028650000001,51.5626127676,609.6 0.6291200932,51.5588718361,609.6 0.6310847554,51.5552283386,609.6 0.6335799758,51.5517133334,609.6 0.6365843696,51.54835677650001,609.6 0.6400722293,51.5451872669,609.6 0.6440137460000001,51.5422318046,609.6 0.6483752663,51.53951556090001,609.6 0.6531195793,51.5370616655,609.6 0.6582062349,51.5348910106,609.6 0.6635918876,51.5330220742,609.6 0.6692306642,51.5314707638,609.6 0.6750745535,51.5302502819,609.6 0.6810738118,51.5293710145,609.6 0.6871773836,51.5288404435,609.6 0.6933333333,51.5286630835,609.6 0.699489283,51.5288404435,609.6 0.7055928549,51.5293710145,609.6 0.7115921131,51.5302502819,609.6 0.7174360023999999,51.5314707638,609.6 0.7230747791000001,51.5330220742,609.6 0.7284604317,51.5348910106,609.6 0.7335470874,51.5370616655,609.6 0.7382914004,51.53951556090001,609.6 0.7426529206000001,51.5422318046,609.6 0.7465944374000001,51.5451872669,609.6 0.7500822969999998,51.54835677650001,609.6 0.7530866907999999,51.5517133334,609.6 0.7555819112,51.5552283386,609.6 0.7575465735,51.5588718361,609.6 0.7589638016,51.5626127676,609.6 0.7598213761,51.5664192368,609.6 0.7601118423,51.5702587803,609.6 0.7598325793,51.5740986447,609.6 0.7589858267,51.5779060657,609.6 0.7575786702,51.5816485477,609.6 0.7556229865999999,51.5852941413,609.6 0.7531353462,51.5888117171,609.6 0.7501368754,51.5921712314,609.6 0.7466530802,51.5953439844,609.6 0.7427136308999999,51.5983028658,609.6 0.7383521107,51.6010225879,609.6 0.7336057302,51.6034799024,609.6 0.7285150102,51.60565380079999,609.6 0.7231234345000001,51.6075256945,609.6 0.7174770779,51.6090795755,609.6 0.7116242099,51.6103021536,609.6 0.7056148799,51.6111829714,609.6 0.6995004862999999,51.6117144943,609.6 0.6933333333,51.6118921753,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="26EE286992F31C3B5399F">
+				<name>EGRU142B SOUTHEND RWY 05</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="8092" txt_name="SOUTHEND RWY 05"><tr><td>513209N 0003745E -<br/>513236N 0003714E -<br/>513259N 0003807E thence anti-clockwise by the arc of a circle radius 2.5 NM centred on 513413N 0004136E to<br/>513233N 0003837E -<br/>513209N 0003745E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.6291166667,51.53595555559999,609.6 0.6436260556,51.54249894439999,609.6 0.6405434667,51.544803412,609.6 0.637734927,51.5472403342,609.6 0.6352150556,51.5497970556,609.6 0.6206805556,51.5432416667,609.6 0.6291166667,51.53595555559999,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="2713330BA8E31C3B5399F">
+				<name>EGRU142C SOUTHEND RWY 23</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7541" txt_name="SOUTHEND RWY 23"><tr><td>513615N 0004523E -<br/>513549N 0004553E -<br/>513527N 0004505E thence anti-clockwise by the arc of a circle radius 2.5 NM centred on 513413N 0004136E to<br/>513554N 0004434E -<br/>513615N 0004523E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.7563638888999999,51.6042944444,609.6 0.7428335,51.5982206389,609.6 0.7459369184,51.5959248333,609.6 0.7487662855,51.5934956228,609.6 0.7513069167,51.5909456667,609.6 0.7648138889000001,51.5970083333,609.6 0.7563638888999999,51.6042944444,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="28C50CCED1731C3B5399F">
+				<name>EGRU143A LONDON HELIPORT</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7694" txt_name="LONDON HELIPORT"><tr><td>A circle, 2 NM radius, centred at 512812N 0001046W <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the heliport operator. For contact details see AIP, Part 3 - Heliports, Section AD 3.2 </td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.1795388889,51.50322266999999,609.6 -0.1850237897,51.5030460899,609.6 -0.1904504231,51.5025182256,609.6 -0.1957611449,51.5016446845,609.6 -0.2008995498,51.5004347457,609.6 -0.2058110744,51.4989012607,609.6 -0.2104435795,51.4970605163,609.6 -0.2147479056,51.4949320603,609.6 -0.2186783971,51.49253849309999,609.6 -0.2221933866,51.4899052263,609.6 -0.2252556374,51.4870602117,609.6 -0.2278327366,51.4840336435,609.6 -0.2298974372,51.48085763660001,609.6 -0.2314279437,51.47756588469999,609.6 -0.2324081392,51.4741933023,609.6 -0.2328277518,51.4707756531,609.6 -0.2326824584,51.46734917130001,609.6 -0.2319739255,51.46395017609999,609.6 -0.2307097858,51.4606146879,609.6 -0.2289035523,51.4573780459,609.6 -0.2265744705,51.4542745352,609.6 -0.22374731,51.4513370235,609.6 -0.2204520984,51.4485966148,609.6 -0.2167238008,51.4460823203,609.6 -0.2126019478,51.44382075330001,609.6 -0.2081302155,51.44183584809999,609.6 -0.2033559639,51.4401486084,609.6 -0.1983297361,51.4387768857,609.6 -0.1931047256,51.43773519200001,609.6 -0.187736216,51.4370345469,609.6 -0.1822809993,51.4366823617,609.6 -0.1767967785,51.4366823617,609.6 -0.1713415617,51.4370345469,609.6 -0.1659730521,51.43773519200001,609.6 -0.1607480417,51.4387768857,609.6 -0.1557218139,51.4401486084,609.6 -0.1509475623,51.44183584809999,609.6 -0.14647583,51.44382075330001,609.6 -0.142353977,51.4460823203,609.6 -0.1386256794,51.4485966148,609.6 -0.1353304678,51.4513370235,609.6 -0.1325033072,51.4542745352,609.6 -0.1301742255,51.4573780459,609.6 -0.128367992,51.4606146879,609.6 -0.1271038523,51.46395017609999,609.6 -0.1263953194,51.46734917130001,609.6 -0.126250026,51.4707756531,609.6 -0.1266696386,51.4741933023,609.6 -0.1276498341,51.47756588469999,609.6 -0.1291803406,51.48085763660001,609.6 -0.1312450412,51.4840336435,609.6 -0.1338221404,51.4870602117,609.6 -0.1368843911,51.4899052263,609.6 -0.1403993807,51.49253849309999,609.6 -0.1443298721,51.4949320603,609.6 -0.1486341983,51.4970605163,609.6 -0.1532667033,51.4989012607,609.6 -0.158178228,51.5004347457,609.6 -0.1633166329,51.5016446845,609.6 -0.1686273547,51.5025182256,609.6 -0.1740539881,51.5030460899,609.6 -0.1795388889,51.50322266999999,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="35CB3C14BA331C3B5399F">
+				<name>EGRU151 HMP BELMARSH/THAMESIDE/ISIS</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="14128" txt_name="HMP BELMARSH/THAMESIDE/ISIS"><tr><td>513012N 0000557E -<br/>512942N 0000624E -<br/>512930N 0000550E -<br/>512918N 0000540E -<br/>512927N 0000450E -<br/>512952N 0000501E -<br/>513012N 0000557E <br/>Upper limit: 500 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>HMP Restricted airspace active H24.<br/>Unmanned aircraft flight not permitted unless permission has been granted by Non-Standard Flight Applications (NSF NATS) and HMPPS.<br/>NSF: Online Application: https://nsf.nats.aero/drones-and-model-aircraft/<br/>HMPPS email: drone.RFZapplication@justice.gov.uk<br/>SI 2023/1101<br/>Site elevation: 16 FT AMSL</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.0990305556,51.5032916667,152.4 0.08349444440000001,51.4976583333,152.4 0.08043333330000001,51.4909166667,152.4 0.0945611111,51.4882305556,152.4 0.097125,51.4915305556,152.4 0.1065527778,51.4949638889,152.4 0.0990305556,51.5032916667,152.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="373A246E54631C3B5399F">
+				<name>EGRU153 HMP BRIXTON</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="14156" txt_name="HMP BRIXTON"><tr><td>512722N 0000738W -<br/>512718N 0000710W -<br/>512709N 0000703W -<br/>512656N 0000707W -<br/>512650N 0000721W -<br/>512653N 0000755W -<br/>512714N 0000758W -<br/>512722N 0000738W <br/>Upper limit: 600 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>HMP Restricted airspace active H24.<br/>Unmanned aircraft flight not permitted unless permission has been granted by London Heliport (FRZ - EGRU143A) and HMPPS.<br/>London Heliport 020-7228 0181 or email: Info@londonheliport.co.uk<br/>HMPPS email: drone.RFZapplication@justice.gov.uk<br/>SI 2023/1101<br/>Site elevation: 125 FT AMSL</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.1273222222,51.4562194444,182.88 -0.132775,51.4538527778,182.88 -0.132025,51.4481638889,182.88 -0.1223611111,51.4472388889,182.88 -0.1186333333,51.4488194444,182.88 -0.1174055556,51.4525472222,182.88 -0.1195583333,51.4551111111,182.88 -0.1273222222,51.4562194444,182.88 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="382FE18B5F231C3B5399F">
+				<name>EGRU154 HMP BRONZEFIELD</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="14083" txt_name="HMP BRONZEFIELD"><tr><td>512610N 0002935W -<br/>512618N 0002841W -<br/>512554N 0002832W -<br/>512544N 0002845W -<br/>512541N 0002907W -<br/>512549N 0002925W -<br/>512610N 0002935W <br/>Upper limit: 500 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>HMP Restricted airspace active H24.<br/>Unmanned aircraft flight not permitted unless permission has been granted by Non-Standard Flight Applications (NSF NATS) and HMPPS.<br/>NSF: Online Application: https://nsf.nats.aero/drones-and-model-aircraft/<br/>HMPPS email: drone.RFZapplication@justice.gov.uk<br/>SI 2023/1101<br/>Site elevation: 53 FT AMSL</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.4930166667,51.4362277778,152.4 -0.4903944444,51.4301416667,152.4 -0.4851722222,51.42807222220001,152.4 -0.4792944444,51.4289388889,152.4 -0.4755583333,51.43160277779999,152.4 -0.4780916667,51.4384027778,152.4 -0.4930166667,51.4362277778,152.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="3B1E2C898D431C3B5399F">
+				<name>EGRU157 HMP CHELMSFORD</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="14137" txt_name="HMP CHELMSFORD"><tr><td>514431N 0002858E -<br/>514416N 0002945E -<br/>514359N 0002948E -<br/>514351N 0002936E -<br/>514352N 0002909E -<br/>514404N 0002833E -<br/>514431N 0002858E <br/>Upper limit: 600 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>HMP Restricted airspace active H24.<br/>Unmanned aircraft flight not permitted unless permission has been granted by HMPPS.<br/>HMPPS email: drone.RFZapplication@justice.gov.uk<br/>SI 2023/1101<br/>Site elevation: 135 FT AMSL</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.4828416667,51.74201111109999,182.88 0.4758444444,51.73457222220001,182.88 0.4857611110999999,51.73124444439999,182.88 0.4934583333,51.7308777778,182.88 0.4965583332999999,51.7330944444,182.88 0.4958222222,51.7377777778,182.88 0.4828416667,51.74201111109999,182.88 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="4152A31871C31C3B5399F">
+				<name>EGRU163 HMP FELTHAM</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="14072" txt_name="HMP FELTHAM"><tr><td>512644N 0002615W -<br/>512640N 0002532W -<br/>512559N 0002547W -<br/>512607N 0002647W -<br/>512639N 0002641W -<br/>512644N 0002615W <br/>Upper limit: 500 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>HMP Restricted airspace active H24.<br/>Unmanned aircraft flight not permitted unless permission has been granted by Non-Standard Flight Applications (NSF NATS) and HMPPS.<br/>NSF: Online Application: https://nsf.nats.aero/drones-and-model-aircraft/<br/>HMPPS email: drone.RFZapplication@justice.gov.uk<br/>SI 2023/1101<br/>Site elevation: 62 FT AMSL</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.4374555555999999,51.4456916667,152.4 -0.4445888889,51.4440722222,152.4 -0.4464194444,51.4351611111,152.4 -0.4298361111,51.4329861111,152.4 -0.4255777777999999,51.4443638889,152.4 -0.4374555555999999,51.4456916667,152.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="41782B7F5931C3B539A0">
+				<name>EGRU168 HMP PENTONVILLE</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="14118" txt_name="HMP PENTONVILLE"><tr><td>513256N 0000726W -<br/>513258N 0000659W -<br/>513257N 0000641W -<br/>513231N 0000624W -<br/>513222N 0000721W -<br/>513256N 0000726W <br/>Upper limit: 600 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>HMP Restricted airspace active H24.<br/>Unmanned aircraft flight not permitted unless permission has been granted by HMPPS.<br/>HMPPS email: drone.RFZapplication@justice.gov.uk<br/>SI 2023/1101<br/>Site elevation: 141 FT AMSL</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.1238444444,51.54883611109999,182.88 -0.1224222222,51.5393944444,182.88 -0.1066055556,51.54205,182.88 -0.1114833333,51.5491972222,182.88 -0.1164833333,51.5494138889,182.88 -0.1238444444,51.54883611109999,182.88 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="BD0FE4A40C31C3B539A0">
+				<name>EGRU175 HMP WANDSWORTH</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="14102" txt_name="HMP WANDSWORTH"><tr><td>512722N 0001030W -<br/>512653N 0001006W -<br/>512636N 0001042W -<br/>512659N 0001111W -<br/>512714N 0001056W -<br/>512722N 0001030W <br/>Upper limit: 600 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>HMP Restricted airspace active H24.<br/>Unmanned aircraft flight not permitted unless permission has been granted by London Heliport (FRZ - EGRU143A) and HMPPS.<br/>London Heliport 020-7228 0181 or email: Info@londonheliport.co.uk<br/>HMPPS email: drone.RFZapplication@justice.gov.uk<br/>SI 2023/1101<br/>Site elevation: 112 FT AMSL</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.1751111111,51.4561361111,182.88 -0.1822138889,51.45391944440001,182.88 -0.1864583333,51.4496,182.88 -0.1783527778,51.4432166667,182.88 -0.1683916667,51.4481388889,182.88 -0.1751111111,51.4561361111,182.88 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="D329991C5A31C3B539A0">
+				<name>EGRU177 HMP WORMWOOD SCRUBS</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="14155" txt_name="HMP WORMWOOD SCRUBS"><tr><td>513116N 0001456W -<br/>513119N 0001401W -<br/>513047N 0001352W -<br/>513044N 0001445W -<br/>513057N 0001454W -<br/>513116N 0001456W <br/>Upper limit: 500 FT MSL<br/>Lower limit: SFC  <br/>Class: </td><td>HMP Restricted airspace active H24.<br/>Unmanned aircraft flight not permitted unless permission has been granted by HMPPS.<br/>HMPPS email: drone.RFZapplication@justice.gov.uk<br/>SI 2023/1101<br/>Site elevation: 51 FT AMSL</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								-0.2490222222,51.52105277780001,152.4 -0.2482861111,51.5157277778,152.4 -0.245725,51.51224999999999,152.4 -0.2311805556,51.513125,152.4 -0.2334805556,51.5218972222,152.4 -0.2490222222,51.52105277780001,152.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="A1B17EC03E31C3B539A2">
+				<name>EGRU230A WATTISHAM</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="8099" txt_name="WATTISHAM"><tr><td>A circle, 2.5 NM radius, centred at 520737N 0005719E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.9554138889,52.1686382148,609.6 0.9491700573,52.16846054749999,609.6 0.9429796438999999,52.16792906549999,609.6 0.9368956062,52.1670483157,609.6 0.9309699841,52.1658258326,609.6 0.9252534515999999,52.1642720733,609.6 0.91979488,52.1624003276,609.6 0.9146409181999999,52.1602266031,609.6 0.9098355913,52.15776948760001,609.6 0.9054199238000001,52.155049989,609.6 0.9014315882,52.1520913543,609.6 0.8979045841,52.1489188703,609.6 0.8948689485,52.1455596457,609.6 0.8923505021,52.1420423786,609.6 0.8903706309,52.13839711069999,609.6 0.8889461078999999,52.1346549692,609.6 0.8880889534999999,52.130847901,609.6 0.887806338,52.1270083989,609.6 0.8881005247,52.1231692242,609.6 0.8889688560999999,52.1193631272,609.6 0.8904037816000001,52.1156225676,609.6 0.8923929263000001,52.1119794383,609.6 0.8949192016,52.1084647939,609.6 0.8979609547000001,52.1051085866,609.6 0.9014921567,52.1019394118,609.6 0.9054826276,52.0989842656,609.6 0.9098982951,52.0962683158,609.6 0.9147014867,52.09381468880001,609.6 0.9198512507,52.0916442735,609.6 0.9253037047,52.0897755451,609.6 0.9310124084,52.0882244085,609.6 0.9369287568999999,52.087004064,609.6 0.9430023922,52.0861248961,609.6 0.9491816283999999,52.0855943853,609.6 0.9554138889,52.0854170454,609.6 0.9616461494,52.0855943853,609.6 0.9678253855999999,52.0861248961,609.6 0.9738990208,52.087004064,609.6 0.9798153694,52.0882244085,609.6 0.9855240730999999,52.0897755451,609.6 0.9909765270999999,52.0916442735,609.6 0.9961262910000002,52.09381468880001,609.6 1.0009294826,52.0962683158,609.6 1.0053451502,52.0989842656,609.6 1.0093356211,52.1019394118,609.6 1.0128668231,52.1051085866,609.6 1.0159085762,52.1084647939,609.6 1.0184348515,52.1119794383,609.6 1.0204239962,52.1156225676,609.6 1.0218589216,52.1193631272,609.6 1.0227272531,52.1231692242,609.6 1.0230214398,52.1270083989,609.6 1.0227388243,52.130847901,609.6 1.0218816699,52.1346549692,609.6 1.0204571469,52.13839711069999,609.6 1.0184772757,52.1420423786,609.6 1.0159588292,52.1455596457,609.6 1.0129231937,52.1489188703,609.6 1.0093961896,52.1520913543,609.6 1.005407854,52.155049989,609.6 1.0009921865,52.15776948760001,609.6 0.9961868596,52.1602266031,609.6 0.9910328978,52.1624003276,609.6 0.9855743262,52.1642720733,609.6 0.9798577937,52.1658258326,609.6 0.9739321716,52.1670483157,609.6 0.9678481339,52.16792906549999,609.6 0.9616577205,52.16846054749999,609.6 0.9554138889,52.1686382148,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="BC0089275631C3B539A2">
+				<name>EGRU230B WATTISHAM RWY 05</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="8117" txt_name="WATTISHAM RWY 05"><tr><td>520513N 0005340E -<br/>520537N 0005305E -<br/>520609N 0005402E thence anti-clockwise by the arc of a circle radius 2.5 NM centred on 520737N 0005719E to<br/>520545N 0005438E -<br/>520513N 0005340E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.8945785833,52.08708213889999,609.6 0.9104756667,52.09594825,609.6 0.9069544023,52.0980224587,609.6 0.9036846797,52.10024747229999,609.6 0.9006835277999999,52.10261175,609.6 0.8847938611,52.0937486944,609.6 0.8945785833,52.08708213889999,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="CD6897FA8531C3B539A2">
+				<name>EGRU230C WATTISHAM RWY 23</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="7730" txt_name="WATTISHAM RWY 23"><tr><td>521004N 0010104E -<br/>520940N 0010139E -<br/>520905N 0010037E thence anti-clockwise by the arc of a circle radius 2.5 NM centred on 520737N 0005719E to<br/>520929N 0010001E -<br/>521004N 0010104E <br/>Upper limit: 2000 FT SFC<br/>Lower limit: SFC  <br/>Class: </td><td>FRZ Active H24. Unmanned aircraft flight not permitted unless permission has been granted by the relevant Air Traffic Service unit or aerodrome operator. For contact details see AIP, Part 3 - Aerodromes, Section AD 2.2</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								1.0178328056,52.16778141670001,609.6 1.0003954167,52.1581005278,609.6 1.0039183892,52.1560243877,609.6 1.0071885817,52.15379737890001,609.6 1.010189,52.1514311111,609.6 1.0276337778,52.1611149444,609.6 1.0178328056,52.16778141670001,609.6 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="264B5CB84C631C3B539A2">
+				<name>EGRU246 HMP HIGHPOINT</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="14125" txt_name="HMP HIGHPOINT"><tr><td>520847N 0003034E -<br/>520845N 0003109E -<br/>520801N 0003134E -<br/>520749N 0003019E -<br/>520822N 0003003E -<br/>520847N 0003034E <br/>Upper limit: 800 FT MSL<br/>Lower limit: 0 FT SFC<br/>Class: </td><td>HMP Restricted airspace active H24.<br/>Unmanned aircraft flight not permitted unless permission has been granted by HMPPS.<br/>HMPPS email: drone.RFZapplication@justice.gov.uk<br/>SI 2023/1101<br/>Site elevation: 390 FT AMSL</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								0.5095194444,52.1464944444,243.84 0.5008166667,52.1393277778,243.84 0.5051555556,52.1304,243.84 0.5260694444,52.1337222222,243.84 0.5192861111,52.1459222222,243.84 0.5095194444,52.1464944444,243.84 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="3225E9517C731C3B539A2">
+				<name>EGRU258 HMP WARREN HILL</name>
+				<description><![CDATA[<table border="1" cellpadding="1" cellspacing="0" row_id="14152" txt_name="HMP WARREN HILL"><tr><td>520356N 0012736E -<br/>520335N 0012812E -<br/>520319N 0012809E -<br/>520307N 0012727E -<br/>520333N 0012659E -<br/>520356N 0012736E <br/>Upper limit: 500 FT MSL<br/>Lower limit: 0 FT SFC<br/>Class: </td><td>HMP Restricted airspace active H24.<br/>Unmanned aircraft flight not permitted unless permission has been granted by HMPPS.<br/>HMPPS email: drone.RFZapplication@justice.gov.uk<br/>SI 2023/1101<br/>Site elevation: 59 FT AMSL</td></tr></table>]]></description>
+				<styleUrl>#rdpStyleMap</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<altitudeMode>relativeToGround</altitudeMode>
+							<coordinates>
+								1.4600444444,52.06553888890001,152.4 1.449675,52.0590805556,152.4 1.4574888889,52.0519277778,152.4 1.4692555556,52.0552388889,152.4 1.4700805556,52.05961666670001,152.4 1.4600444444,52.06553888890001,152.4 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
